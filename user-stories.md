@@ -1,4 +1,4 @@
-Developer:****
+****Developer:****
 
 As a devloper, I want to create an easy to use and visually interactive app that lets users custom order pizzas.
 
@@ -18,16 +18,28 @@ As a developer I would like to give the user an add and delete button of topping
 
 *******
 
-Customer:
+****Customer:****
+
 As a customer I would like a feature that encourages users to order pizzas.
 
-As a customer I want an unordered list of different pizza topping categories for my user to choose from
+As a customer I want an unordered list of different pizza topping categories for my user to choose from.
+
+As a customer I would like an order page.
+
+As a customer I would like an order checkout page.
+
+As a customer I would like for the custom pizza order to be saved so that the custom pizza can be created.
+
+As a customer I would like an icon company image on the header of the website.
+
+As a customer I would like easy navigation through the pages.
 
 (Stretch Goal) As a customer I would like to add a pizza related game to increase visability and time on the website.
 
 *********
 
-User:
+****User:****
+
 As a user I would like a simple and intuitive ordering system.
 
 As a user I want to create a pizza with numerous topping options and a checkout button.
@@ -36,11 +48,15 @@ As a user I would like a graphical interface to make creating pizza easier.
 
 As a user, after I select a topping, I would like my selection to be recorded.
 
+As a user, after I select a topping, I would like the pizza image to be updated with my added toppings.
+
 As a user, I would like to be presented a picture of my finished product.
 
-As a user I would like to be given a list of ingredients to choose from
+As a user I would like to be given a list of ingredients to choose from.
 
-As a user I would like to be presented with a list of my chosen ingredients at checkout
+As a user I would like to be presented with a list of my chosen ingredients at checkout.
+
+As a user I would like to be able to order my choosen custom pizza in the website.
 
 ********
 
