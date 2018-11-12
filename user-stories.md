@@ -11,6 +11,8 @@ As a developer, I want to implement a constructor function, so that I can reuse 
 
 As a developer I want to implement animation transitions when a button is clicked
 
+As a developer I would like to give the user an add and delete button of toppings
+
 (Stretch Goal) As a developer I want a game for a user to finish a certain amount of pizzas in an allotted time frame.
 
 Customer:
