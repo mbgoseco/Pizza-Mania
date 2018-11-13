@@ -1,5 +1,5 @@
 'use strict';
-var allToppings = ['bacon', 'broccoli', 'canadianBacon', 'cilantro', 'mint', 'redPepper', 'mushroom', 'olive', 'onion', 'shrimp', 'tomato', 'turkeyBacon', 'shredAmerican', 'shredCheddar', 'shredMoz', 'pestoSauce', 'marinaraSauce', 'alfredoSauce', 'BBQSauce'];
+var allToppings = ['bacon', 'broccoli', 'canadianBacon', 'cilantro', 'mint', 'redPepper', 'pepperoni', 'mushroom', 'olive', 'onion', 'shrimp', 'tomato', 'turkeyBacon', 'americanCheese', 'cheddarCheese', 'mozzorella', 'pestoSauce', 'marinaraSauce', 'alfredoSauce', 'BBQSauce'];
 
 function Pizza() {
   this.toppings = [];

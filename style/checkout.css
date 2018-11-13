@@ -1,4 +1,3 @@
-
 body {
   background-color: black;
 }
@@ -6,6 +5,7 @@ header {
   width: 100%;
   background-color: rgb(37, 123, 151);
   top: 0%;
+  z-index: 7;
 }
 #titleImage {
   position: relative;
@@ -17,6 +17,7 @@ header {
   text-align: center;
   width: 100%;
   background-color: green;
+  z-index: 6;
 }
 .navItems {
   display: inline;
@@ -24,32 +25,43 @@ header {
   padding: 1%;
   background-color: yellow;
   border: 1px solid green;
+  z-index: 7;
 }
 main {
-  background-image: url('../assets/pizzaOven.jpg');
+  background-image: url('../assets/pizzaBack.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 80%;
   width: 100%;
 
 }
-div:nth-child(4) {
+#orderingBox {
   position: relative;
-  /* background-color: white; */
+  background-color: black;
   width: 50%;
-  height: 600px;
+  height: 700px;
+  top: -10px;
   left: 25%;
+  z-index: 1;
+  color: white;
+}
+input {
+  width: 100px;
+  bottom: 8%;
+  right: 9%;
+  position: absolute;
 }
 #foot {
+  position: fixed;
   padding: 1%;
   width:100%;
   background-color: rgb(37, 123, 151);
   text-align: center;
-  top: 90%;
+  bottom: 0%;
+  z-index: 6;
 }
 
 #footer {
     display: inherit;
     text-align: center;
-    top: 90%;
 }
