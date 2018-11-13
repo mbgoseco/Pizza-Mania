@@ -1,6 +1,37 @@
 body {
+  background-color: black;
+}
+header {
+  width: 100%;
+  background-color: rgb(37, 123, 151);
+}
+#titleImage {
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+#navBar {
+  border: 1px solid;
+  text-align: center;
+  width: 100%;
+  background-color: green;
+}
+.navItems {
+  display: inline;
+  border: 3%;
+  padding: 1%;
+  background-color: yellow;
+  border: 1px solid green;
+}
+main {
   background-image: url('../assets/pizzaBack.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  height: 80%;
+  width: 100%;
 
+}
+footer {
+  background-color: black;
+  color: white;
 }
