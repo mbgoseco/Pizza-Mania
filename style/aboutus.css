@@ -1,48 +1,48 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 header {
-    width: 100%;
-    background-color: rgb(37, 123, 151);
+  width: 100%;
+  background-color: rgb(37, 123, 151);
 }
 #titleImage {
-    position: relative;
-    width: 50%;
-    left: 25%;
+  position: relative;
+  width: 50%;
+  left: 25%;
 }
 #navBar {
-    border: 1px solid;
-    text-align: center;
-    width: 100%;
-    background-color: green;
+  border: 1px solid;
+  text-align: center;
+  width: 100%;
+  background-color: green;
 }
 .navItems {
-    display: inline;
-    border: 3%;
-    padding: 1%;
-    background-color: yellow;
-    border: 1px solid green;
+  display: inline;
+  border: 3%;
+  padding: 1%;
+  background-color: yellow;
+  border: 1px solid green;
 }
 main {
-    background-color: black;
-    color: white;
-    width: 100%;
+  background-color: black;
+  color: white;
+  width: 100%;
 
 }
 .ourPics {
-    width: 23%;
+  width: 23%;
 }
 #names {
-    font-size: 220%;
-    left: 3%;
+  font-size: 220%;
+  left: 3%;
 }
 .name {
-    padding: 4.9%;
+  padding: 4.9%;
 }
 #statement {
-    padding-top: 5%;
+  padding-top: 5%;
 }
 footer {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 }
