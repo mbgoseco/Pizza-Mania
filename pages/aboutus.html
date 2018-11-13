@@ -10,32 +10,38 @@
   <body>
 
     <header>
-      <img src = "../assets/pizza_mania.png"> 
-      <div>
-        <nav>
-          <a href = "./index.html">Home</a>
-          <a href = "./pages/order.html">Order</a>
-          <a href = "./pages/aboutus.html">About Us</a>
-          <a href = "">Game</a>
+      <img id = "titleImage" src = "../assets/pizza_mania.png"> 
+      <div id = "navBar">
+          <nav id = "navigate"></nav>
+            <ul id = "navigation">
+              <li id = "home" class = "navItems"><a href = "./index.html">Home</a></li>
+              <li id = "order" class = "navItems"><a href = "./pages/order.html">Order</a></li>
+              <li id = "checkout" class = "navItems"><a href = "./pages/checkout.html">Checkout</a></li>
+              <li id = "aboutUs" class = "navItems"><a href = "./pages/aboutus.html">About Us</a></li>
+              <li id = "game" class = "navItems"><a href = "">Game</a></li>
+            </ul>
         </nav>
     </div>
     </header>
       <main>
         <div id = "usDiv">
           <div id = "pics">
-            <img id = "rynaPic" src = "../assets/ryna.png">
-            <img id = "mikegPic" src = "../assets/mikeg.png">
-            <img id = "joePic" src = "../assets/joseph.png">
-            <img id = "mikekPic" src = "../assets/mikek.png">
+            <img id = "rynaPic" class = "ourPics" src = "../assets/ryna.png">
+            <img id = "mikegPic" class = "ourPics" src = "../assets/mikeg.png">
+            <img id = "joePic" class = "ourPics" src = "../assets/joseph.png">
+            <img id = "mikekPic" class = "ourPics" src = "../assets/mikek.png">
           </div>
           <h1 id = "names">
-            <span id = "ryna">Ryna Truong</span>
-            <span id = "mikeg">Michael Goseco</span>
-            <span id = "joe">Joseph Pumphrey</span>
-            <span id = "mikek">Michael Kelly</span>
+            <span id = "ryna" class = "name">Ryna Truong</span>
+            <span id = "mikeg" class = "name">Michael Goseco</span>
+            <span id = "joe" class = "name">Joseph Pumphrey</span>
+            <span id = "mikek" class = "name">Michael Kelly</span>
           </h1>
+          <p id = "statement">With the use of HTML, CSS, and Javascript we have put together this pizza ordering website.</p>
         </div>
     </main>
-    <footer></footer>
+    <footer>
+
+    </footer>
   </body>
 </html>
