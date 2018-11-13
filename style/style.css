@@ -18,10 +18,10 @@ header {
 #orderButton {
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
-  border-radius: 28px;
-  border: 2px solid #0099CC;
-  background-image: url('../assets/button-1157301_960_720.png');
-  
+  margin: 10%;
+  font-size: 30px;
+  background-color:  yellow;
+  font-family: monospace;
 }
 #navBar {
   border: 1px solid;
