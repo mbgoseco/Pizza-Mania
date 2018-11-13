@@ -14,6 +14,10 @@ tbody {
   height: 50px;
 }
 
+button[value="remove"] {
+  visibility: hidden;
+}
+
 #pizza-preview {
   position: absolute;
   text-align: center;
@@ -50,6 +54,7 @@ img.toppings {
   top: 0;
   left: 0;
   z-index: 3;
+}
 
 #foot {
   padding: 1%;
