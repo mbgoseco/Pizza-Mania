@@ -1,15 +1,6 @@
-#wholePage {
-  background-image: url('../assets/pizzaOven.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-
+body {
+  background-color: black;
 }
-
-.thankYou {
-  text-align: center;
-}
-
 header {
   width: 100%;
   background-color: rgb(37, 123, 151);
@@ -22,19 +13,25 @@ header {
 #navBar {
   border: 1px solid;
   text-align: center;
-  width: 40%;
+  width: 100%;
   background-color: green;
 }
 .navItems {
   display: inline;
   border: 3%;
-  padding: 20px;
+  padding: 1%;
   background-color: yellow;
   border: 1px solid green;
 }
+main {
+  background-image: url('../assets/pizzaBack.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
 
-#foot {
-  padding: 30%;
-  margin:20%;
-  border: 10%
+}
+footer {
+  background-color: black;
+  color: white;
 }
