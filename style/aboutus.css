@@ -42,7 +42,14 @@ main {
 #statement {
   padding-top: 5%;
 }
-footer {
-  background-color: black;
-  color: white;
+#foot {
+  padding: 1%;
+  width:100%;
+  background-color: rgb(37, 123, 151);
+  text-align: center;
+}
+
+#footer {
+    display: inherit;
+    text-align: center;
 }
