@@ -1,6 +1,37 @@
-body {
-  background-image: url('../assets/pizzaBack.jpg');
+#wholePage {
+  background-image: url('../assets/pizzaOven.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 
+}
+
+.thankYou {
+  text-align: center;
+  
+}
+
+header {
+  width: 100%;
+  background-color: rgb(37, 123, 151);
+}
+#titleImage {
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+#navBar {
+  border: 1px solid;
+  text-align: center;
+  width: 40%;
+  background-color: green;
+}
+.navItems {
+  display: inline;
+  border: 3%;
+  padding: 20px;
+  background-color: yellow;
+  border: 1px solid green;
+  display: grid;
+  grid-template: 30% 70%;
 }
