@@ -50,4 +50,15 @@ img.toppings {
   top: 0;
   left: 0;
   z-index: 3;
+
+#foot {
+  padding: 1%;
+  width:100%;
+  background-color: rgb(37, 123, 151);
+  text-align: center;
+}
+
+#footer {
+    display: inherit;
+    text-align: center;
 }

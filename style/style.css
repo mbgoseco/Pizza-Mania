@@ -1,0 +1,66 @@
+main {
+  background-image: url('../assets/131009-F-OC707-005.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(37, 123, 151);
+}
+#titleImage {
+  position: relative;
+  width: 32%;
+  left: 34%;
+}
+#orderButton {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  margin: 10%;
+  font-size: 30px;
+  background-color:  yellow;
+  font-family: monospace;
+}
+#navBar {
+  border: 1px solid;
+  text-align: center;
+  width: 100%;
+  background-color: green;
+}
+.navItems {
+  display: inline;
+  border: 3%;
+  padding: 1%;
+  background-color: yellow;
+  border: 1px solid green;
+}
+main {
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+#placeOrder {
+  text-align: center;
+}
+div#orderCenter {
+  position: relative;
+  right: -18%;
+  width: 68%;
+  height: 323px;
+  text-align: -webkit-center;
+}
+
+#foot {
+  padding: 1%;
+  width:100%;
+  background-color: rgb(37, 123, 151);
+  text-align: center;
+}
+
+#footer {
+    display: inherit;
+    text-align: center;
+}
