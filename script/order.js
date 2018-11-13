@@ -7,7 +7,8 @@ function Pizza() {
 };
 
 function addTopping() {
-  var clickClass =  event.target.className;
+  var clickClass =  event.target.classList[0];
+  var clickToppingType = event.target.classList[1];
   var clickValue = event.target.value;
   var clickName = event.target.name;
   console.log(myPizza.toppings.indexOf(clickClass));
@@ -19,6 +20,11 @@ function addTopping() {
         myPizza.toppings.push(allToppings[i]);
         myPizza.toppingNames.push(clickName);
         console.log(`${clickName} added`);
+        var layerEl = document.getElementById('pizza-preview');
+        var imgEl = document.createElement('img');
+        imgEl.src = `../assets/${clickClass}Topping.png`;
+        imgEl.className = clickToppingType;
+        layerEl.appendChild(imgEl);
       }
     }
   }
