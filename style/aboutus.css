@@ -19,7 +19,7 @@ header {
 .navItems {
     display: inline;
     border: 3%;
-    padding: 20px;
+    padding: 1%;
     background-color: yellow;
     border: 1px solid green;
 }
@@ -30,17 +30,17 @@ main {
 
 }
 .ourPics {
-    width: 400px;
+    width: 23%;
 }
 #names {
-    font-size: 36px;
-    left: 50px;
+    font-size: 220%;
+    left: 3%;
 }
 .name {
-    padding: 90px;
+    padding: 4.9%;
 }
 #statement {
-    padding-top: 50px;
+    padding-top: 5%;
 }
 footer {
     background-color: black;
