@@ -2,3 +2,15 @@
   width: 50px;
   height: 50px;
 }
+
+#foot {
+  padding: 1%;
+  width:100%;
+  background-color: rgb(37, 123, 151);
+  text-align: center;
+}
+
+#footer {
+    display: inherit;
+    text-align: center;
+}
