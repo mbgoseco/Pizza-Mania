@@ -36,7 +36,12 @@ function buildList(name) {
 
 function handleButtons() {
   var buttonId = event.target.id;
-  
+  if (buttonId === 'checkoutButton') {
+    location.href = 'https://www.dominos.com/';
+  } else if (buttonId === 'cancel') {
+    localStorage.clear();
+    location.href = '../index.html';
+  }
 }
 
 function buildPizza() {
