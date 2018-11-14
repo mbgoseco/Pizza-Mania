@@ -17,6 +17,11 @@ header {
   width: 100%;
   background-color: green;
 }
+
+button[value="remove"] {
+  visibility: hidden;
+}
+
 .navItems {
   display: inline;
   border: 3%;
@@ -33,6 +38,7 @@ main {
 div#pizza-preview {
   top: 128px;
   display: block;
+
   position: absolute;
   height: 600px;
   width: 700px;
@@ -80,7 +86,6 @@ tbody {
   left: 19%;
   background-color: rgb(37, 123, 151);
 }
-
 
 #foot {
   position: relative;
