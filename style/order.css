@@ -24,11 +24,10 @@ button[value="remove"] {
 
 .navItems {
   display: inline;
-  border: 3%;
-  padding: 1%;
+  border: dashed;
+  padding: .5%;
   background-color: yellow;
   border: 1px solid green;
-
 }
 main {
   background-image: url(../assets/orderPageBackground.JPG);
@@ -39,7 +38,6 @@ main {
 div#pizza-preview {
   top: 172px;
   display: block;
-
   position: absolute;
   height: 550px;
   width: 700px;
@@ -58,21 +56,21 @@ img.sauces {
   position: absolute;
   left: 23%;
   width: 380px;
-  bottom: 170px;
+  bottom: 118px;
 }
 img.cheeses {
   z-index: 3;
   position: absolute;
   left: 29%;
   width: 300px;
-  bottom: 211px;
+  bottom: 160px;
 }
 img.toppings {
   z-index: 4;
   position: absolute;
   left: 23%;
   width: 370px;
-  bottom: 166px;
+  bottom: 100px;
 }
 
 tbody {
