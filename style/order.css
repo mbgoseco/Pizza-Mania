@@ -24,10 +24,11 @@ button[value="remove"] {
 
 .navItems {
   display: inline;
-  border: dashed;
-  padding: .5%;
+  border: 3%;
+  padding: 1%;
   background-color: yellow;
   border: 1px solid green;
+
 }
 main {
   background-image: url(../assets/orderPageBackground.JPG);
@@ -98,11 +99,6 @@ tbody {
   display: inline-block;
   position: relative;
   bottom: 10px;
-}
-
-a.button {
-  position: relative;
-  left: 25%;
 }
 
 #foot {
