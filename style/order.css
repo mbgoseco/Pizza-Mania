@@ -1,7 +1,19 @@
+@keyframes colorTrans {
+  0% {background-color: #88d1f5;}
+  25% {background-color: #8d88f5;}
+  50% {background-color: #ff3928;}
+  75% {background-color: #fac967;}
+  100% {background-color: #88d1f5;}
+
+}
 header {
   width: 100%;
-  background-color: #33b1ff;
   z-index: 2;
+  background-color: #88d1f5;
+  animation-name: colorTrans;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
 }
 #titleImage {
   position: relative;
@@ -21,28 +33,28 @@ button[value="remove"] {
   position: relative;
   border: 2px solid black;
   text-align: center;
-  background-color: #ccc;
   z-index: 2;
-}
-#greenFoot {
-  position: relative;
-  border: 2px solid black;
-  height: 17px;
-  bottom: 20px;
-  background-color: #ccc;
-  z-index: 2;
+  background-color: #8d88f5;
+  animation-name: colorTrans;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
 }
 .navItems {
   position: relative;
   display: inline;
   border: 3%;
   padding: 1%;
-  background-color: yellow;
   border-radius: 10px;
   border: 3px solid black;
   z-index: 2;
   font-family: monospace;
   font-size: 13px;
+  background-color: #ff3928;
+  animation-name: colorTrans;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
 }
 main {
   background-image: url(../assets/orderPageBackground.JPG);
@@ -115,36 +127,47 @@ th.toppingType {
   font-size: 25px;
   border-bottom: black 3px dashed;
 }
- button.sauces {
+button.sauces {
   font-size: 15px;
-  background-color: yellow;
   font-family: monospace;
   margin-right: 17px;
   margin-bottom: 7px;
   position: relative;
   border-radius: 10px;
-  
- }
- button.cheeses {
+  background-color: #ff3928;
+  animation-name: colorTrans;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;  
+}
+button.cheeses {
   font-size: 15px;
-  background-color: yellow;
-  font-family: monospace;
-  margin-top: 20px;
-  margin-right: 17px;
-  margin-bottom: 7px;
-  position: relative;
-  border-radius: 10px;
- }
- button.toppings {
-  font-size: 15px;
-  background-color: yellow;
   font-family: monospace;
   margin-top: 20px;
   margin-right: 17px;
   margin-bottom: 7px;
   position: relative;
   border-radius: 10px;
- }
+  background-color: #ff3928;
+  animation-name: colorTrans;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+}
+button.toppings {
+  font-size: 15px;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 17px;
+  margin-bottom: 7px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #ff3928;
+  animation-name: colorTrans;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
+}
 img {
   right: 13px;
   position: relative;
@@ -161,11 +184,15 @@ img {
   font-size: 30px;
   padding-left: 8px;
   padding-right: 8px;
-  background-color:  yellow;
   font-family: monospace;
   display: inline-block;
   position: relative;
   bottom: 50px;
+  background-color: #ff3928;
+  animation-name: colorTrans;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-delay: 30s;
 }
 
 a.button {
@@ -178,9 +205,25 @@ a.button {
   position: relative;
   padding-top: 1%;
   padding-bottom: 11px ;
-  background-color: #33b1ff;
   text-align: center;
   text-emphasis-color: white;
+  background-color: #fac967;
+  animation-name: colorTrans;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-delay: 45s;
+}
+#greenFoot {
+  position: relative;
+  border: 2px solid black;
+  height: 17px;
+  bottom: 20px;
+  z-index: 2;
+  background-color: #8d88f5;
+  animation-name: colorTrans;
+  animation-duration: 60s;
+  animation-iteration-count: infinite;
+  animation-delay: 15s;
 }
 
 #footer {
