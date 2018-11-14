@@ -18,11 +18,12 @@ header {
 }
 
 #orderButton {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
   margin: 10%;
+  position: relative;
   font-size: 30px;
-  background-color:  yellow;
+  background-color: yellow;
+  bottom: 85px;
+  left: -2%;
   font-family: monospace;
 }
 #navBar {
@@ -55,26 +56,39 @@ main {
 }
 div#orderCenter {
   position: relative;
-  right: -18%;
-  width: 68%;
-  height: 660px;
+  right: -2%;
   text-align: -webkit-center;
+  z-index: 6;
 }
-
+#board {
+  background-image: url(../assets/cutting-board-2693412_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  transform: rotate(90deg);
+  width: 1000px;
+  height: 1000px;
+  bottom: 376px;
+  left: 21%;
+  z-index: 0;
+}
 @keyframes spinningPizza {
   from {transform: rotate(0deg);}
   to {transform: rotate(360deg);}
 }
 #pizzaPunk {
   position: relative;
-  bottom: 450px;
-  left: 25%;
-  width: 900px;
+  /* bottom: 60%; */
+  top: 12%;
+  left: 20%;
+  /* right: 24%; */
+  width: 750px;
   transform: rotate(0deg);
   animation-name: spinningPizza;
   animation-duration: 12s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
+  z-index: 2;
 }
 
 #foot {
