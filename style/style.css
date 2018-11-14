@@ -45,11 +45,6 @@ header {
   font-family: monospace;
   font-size: 13px;
 }
-main {
-  background-color: black;
-  color: white;
-  width: 100%;
-}
 
 #placeOrder {
   text-align: center;
