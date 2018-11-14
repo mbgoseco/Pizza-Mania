@@ -68,11 +68,12 @@ div#orderCenter {
 #pizzaPunk {
   position: relative;
   bottom: 450px;
-  left: 30%;
+  left: 25%;
   width: 900px;
   transform: rotate(0deg);
   animation-name: spinningPizza;
-  animation-duration: 0.4s;
+  animation-duration: 12s;
+  animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
