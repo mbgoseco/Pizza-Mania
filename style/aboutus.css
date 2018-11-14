@@ -23,6 +23,7 @@ header {
   padding: 1%;
   background-color: yellow;
   border: 1px solid green;
+  border-radius: 16px;
 }
 main {
   background-color: black;

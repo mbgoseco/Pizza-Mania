@@ -8,6 +8,7 @@ header {
   width: 32%;
   left: 34%;
 }
+
 button[value="remove"] {
   visibility: hidden;
   margin-right: 20px;
@@ -43,12 +44,14 @@ button[value="remove"] {
   z-index: 2;
   font-family: monospace;
   font-size: 13px;
+  
 }
 main {
   background-image: url(../assets/orderPageBackground.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%; 
+  height: 690px;
 }
 div#pizza-preview {
   width: 700px;
@@ -62,12 +65,14 @@ div#pizza-preview {
   border-right: black 5px solid;
   border-left: black 5px solid;
 }
+
 img#dough {
   position: relative;
   left: 25%;
   width: 350px;
   top: 22px;
 }
+
 img.sauces {
   z-index: 2;
   position: absolute;
@@ -75,6 +80,7 @@ img.sauces {
   width: 380px;
   bottom: 105px;
 }
+
 img.cheeses {
   z-index: 3;
   position: absolute;
@@ -82,6 +88,7 @@ img.cheeses {
   width: 295px;
   bottom: 145px;
 }
+
 img.toppings {
   z-index: 4;
   position: absolute;
@@ -94,10 +101,12 @@ button#checkout {
   left: 44%;
   top: 86px;
 }
+
 tbody {
   display: block;
   position: relative;
   overflow: auto;
+  top: 10px;
   height: 490px;
   left: 19%;
   background-image: url(../assets/cutting-board-2693412_960_720.jpg);
@@ -154,6 +163,7 @@ img {
   position: relative;
   width: 25px;
 }
+
 #orderButton {
   border-radius: 28;
   margin: 10%;
@@ -178,9 +188,6 @@ a.button {
 }
 
 #footer {
-    position: relative;
     display: inherit;
     text-align: center;
-    top: 90%;
-    width: 100%;
 }

@@ -26,6 +26,7 @@ header {
   background-color: yellow;
   border: 1px solid green;
   z-index: 7;
+  border-radius: 16px;
 }
 main {
   background-image: url('../assets/pizzaBack.jpg');
@@ -52,7 +53,7 @@ input {
   position: absolute;
 }
 #foot {
-  position: fixed;
+  position: relative;
   padding: 1%;
   width:100%;
   background-color: rgb(37, 123, 151);
@@ -64,4 +65,8 @@ input {
 #footer {
     display: inherit;
     text-align: center;
+}
+
+.toppings {
+
 }
