@@ -36,21 +36,37 @@ header {
   font-size: 13px;
 }
 main {
-  background-image: url('../assets/pizzaBack.jpg');
+  background-image: url('../assets/pizzaLine.JPG');
   background-repeat: no-repeat;
   background-size: cover;
   height: 80%;
   width: 100%;
-
 }
+
+input {
+     font-size: 15px;
+    background-color: yellow;
+    font-family: monospace;
+    margin-right: 17px;
+    margin-bottom: 7px;
+    position: relative;
+    border-radius: 10px;
+    width: 100px;
+    bottom: 8%;
+    right: 9%;
+    position: absolute;
+}
+
 #orderingBox {
   position: relative;
-  background-color: black;
-  width: 50%;
-  height: 700px;
-  top: -10px;
-  left: 25%;
+  width: 60%;
+  font-size: -webkit-xxx-large;
+  height: 407px;
+  top: -17px;
+  left: 20%;
   z-index: 1;
+  background-image: url('../assets/cutting-board-2693412_960_720.jpg');
+  background-repeat: no-repeat;
   color: white;
 }
 #cancel, #checkoutButton {
@@ -59,6 +75,8 @@ main {
   right: 9%;
   position: absolute;
 }
+
+
 #foot {
   position: fixed;
   padding: 1%;
