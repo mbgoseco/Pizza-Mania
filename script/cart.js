@@ -8,8 +8,13 @@ if(localStorage.getItem('toppingData')) {
   buildPizza();
 } else {
   var emptyEl = document.createElement('h1');
+  var hideCheckout = document.getElementById('checkoutButton');
+  var hideCancel = document.getElementById('cancel');
   emptyEl.innerText = 'YOUR CART IS EMPTY!';
   cartWindow.appendChild(emptyEl);
+  hideCheckout.style.visibility = 'hidden';
+  hideCancel.style.visibility = 'hidden';
+
 }
 
 function addTopping(topping, name, type) {
@@ -36,7 +41,12 @@ function buildList(name) {
 
 function handleButtons() {
   var buttonId = event.target.id;
-  
+  if (buttonId === 'checkoutButton') {
+    location.href = 'https://www.dominos.com/';
+  } else if (buttonId === 'cancel') {
+    localStorage.clear();
+    location.href = '../index.html';
+  }
 }
 
 function buildPizza() {
