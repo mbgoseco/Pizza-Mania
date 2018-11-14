@@ -9,10 +9,10 @@ function Pizza() {
 function addTopping() {
   var clickClass =  event.target.classList[0];
   var clickToppingType = event.target.classList[1];
-  var clickValue = event.target.value;
+  var clickId = event.target.id;
   var clickName = event.target.name;
   console.log(myPizza.toppings.indexOf(clickClass));
-  if (clickValue === 'remove') {
+  if (clickId === clickClass) {
     removeTopping(clickClass, clickName);
   } else if (myPizza.toppings.indexOf(clickClass) === -1) {
     for (var i in allToppings) {
@@ -20,11 +20,17 @@ function addTopping() {
         myPizza.toppings.push(allToppings[i]);
         myPizza.toppingNames.push(clickName);
         console.log(`${clickName} added`);
+
         var layerEl = document.getElementById('pizza-preview');
         var imgEl = document.createElement('img');
         imgEl.src = `../assets/${clickClass}Topping.png`;
         imgEl.className = clickToppingType;
+        imgEl.id = clickName;
         layerEl.appendChild(imgEl);
+
+        var buttonEl = document.getElementById(clickClass);
+        console.log(buttonEl);
+        buttonEl.style.visibility = 'visible';
       }
     }
   }
@@ -43,6 +49,11 @@ function removeTopping(topping, name) {
       console.log(`${name} removed`);
     }
   }
+  var imgEl = document.getElementById(name);
+  imgEl.parentNode.removeChild(imgEl);
+
+  var buttonEl = document.getElementById(topping);
+  buttonEl.style.visibility = 'hidden';
 }
 
 var myPizza = new Pizza();

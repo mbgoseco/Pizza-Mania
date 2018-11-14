@@ -18,6 +18,11 @@ header {
   background-color: green;
   padding: 1.5%;
 }
+
+button[value="remove"] {
+  visibility: hidden;
+}
+
 .navItems {
   display: inline;
   border: dashed;
@@ -32,8 +37,9 @@ main {
   width: 100%; 
 }
 div#pizza-preview {
-  top: 128px;
+  top: 172px;
   display: block;
+
   position: absolute;
   height: 600px;
   width: 700px;
@@ -95,6 +101,11 @@ a.button {
   position: relative;
   left: 25%;
 }
+  left: 83%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
 
 #foot {
   position: relative;
