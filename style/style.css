@@ -55,11 +55,6 @@ header {
   animation-iteration-count: infinite;
   animation-delay: 30s;
 }
-main {
-  background-color: black;
-  color: white;
-  width: 100%;
-}
 
 #orderButton {
   margin: 10%;
