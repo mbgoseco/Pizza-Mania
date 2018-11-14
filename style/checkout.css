@@ -53,7 +53,7 @@ main {
   z-index: 1;
   color: white;
 }
-input {
+#cancel, #checkoutButton {
   width: 100px;
   bottom: 8%;
   right: 9%;
