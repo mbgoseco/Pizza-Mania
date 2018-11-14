@@ -89,11 +89,7 @@ img.toppings {
   width: 370px;
   bottom: 85px;
 }
-button#checkout {
-  position: relative;
-  left: 44%;
-  top: 86px;
-}
+
 tbody {
   display: block;
   position: relative;
@@ -154,13 +150,22 @@ img {
   position: relative;
   width: 25px;
 }
-#orderButton {
-  border-radius: 28;
-  margin: 10%;
+
+#orderCenter {
+  text-align: center;
+}
+
+#orderButton, #cancelButton {
+  border-radius: 28px;
+  margin-top: 15%;
   font-size: 30px;
+  padding-left: 8px;
+  padding-right: 8px;
   background-color:  yellow;
   font-family: monospace;
-  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+  bottom: 50px;
 }
 
 a.button {
