@@ -1,5 +1,6 @@
 body {
   background-color: black;
+  width: 100%;
 }
 header {
   width: 100%;
@@ -30,23 +31,33 @@ main {
 
 }
 .ourPics {
-  width: 23%;
+  width: 200px;
+  height: 200px;
 }
 #names {
   font-size: 220%;
   left: 3%;
 }
-.name {
-  padding: 4.9%;
+td {
+  padding-left: 120px;
 }
 #statement {
+  position: absolute;
   padding-top: 5%;
+  bottom: 20%;
+}
+table {
+  position: absolute;
+  top: 30%;
 }
 #foot {
+  position: fixed;
   padding: 1%;
   width:100%;
   background-color: rgb(37, 123, 151);
   text-align: center;
+  bottom: 0%;
+  z-index: 6;
 }
 
 #footer {

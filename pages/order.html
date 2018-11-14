@@ -7,17 +7,19 @@
     </head>
     <body>
         <header>
-            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-            <img src = ''> 
-            <div>
-                <nav>
-                    <a href = '../index.html'>Home</a>
-                    <a href = './order.html'>Order</a>
-                    <a href = './aboutus.html'>About Us</a>
-                    <a href = ''>Game</a>
-                </nav>
-            </div>
-        </header>
+        <img id="titleImage" src="../assets/pizza_mania.png">
+        <div id="navBar">
+            <nav id="navigate"></nav>
+            <ul id="navigation">
+                <li id="home" class="navItems"><a href="../index.html">Home</a></li>
+                <li id="order" class="navItems"><a href="../pages/order.html">Order</a></li>
+                <li id="checkout" class="navItems"><a href="../pages/checkout.html">Checkout</a></li>
+                <li id="aboutUs" class="navItems"><a href="../pages/aboutus.html">About Us</a></li>
+                <li id="game" class="navItems"><a href="">Game</a></li>
+            </ul>
+            </nav>
+        </div>
+    </header>
         <main>
             <div>
                 <table id="toppings">
@@ -159,19 +161,20 @@
                 </table>
             </div>
             <div id="pizza-preview">
-                <img id="dough" src = '../assets/pizzadough.png'><br>
-                <button id="checkout">Add to cart</button>
-            </div>
-            <footer id=foot> © Copyright 2018 PizzaMania USA. All rights reserved.
-                <nav>
-                <ul id="footer">
-                  <a href = "">Help</a>
-                  <a href = "">Send Feedback</a>
-                  <a href = "">Privacy</a>
-                  <a href = "">Terms</a>
-                </ul>
-            </nav> 1888-345-6789
-            <script src="../script/order.js"></script></footer>
-        </main>
+            <img id="dough" src='../assets/pizzadough.png'><br>
+            <button id="checkout">Add to cart</button>
+        </div>
+    </main>
+    <footer id=foot> © Copyright 2018 PizzaMania USA. All rights reserved.
+        <nav>
+            <ul id="footer">
+                <a href="">Help</a>
+                <a href="">Send Feedback</a>
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+            </ul>
+        </nav> 1888-345-6789
+    </footer>
+    <script src="../script/order.js"></script>
     </body>
 </html>

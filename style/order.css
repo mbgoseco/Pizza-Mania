@@ -1,69 +1,107 @@
-body {
+
+header {
+  width: 100%;
+  background-color: rgb(37, 123, 151);
+  top: 0%;
   position: relative;
+  z-index: 2;
 }
-
-tbody {
-  position: absolute;
-  top: 75px;
-  height: 600px;
-  overflow: auto;
+#titleImage {
+  position: relative;
+  width: 32%;
+  left: 34%;
 }
-
-#toppings img {
-  width: 50px;
-  height: 50px;
+#navBar {
+  border: 1px solid;
+  text-align: center;
+  width: 100%;
+  background-color: green;
 }
 
 button[value="remove"] {
   visibility: hidden;
 }
 
-#pizza-preview {
+.navItems {
+  display: inline;
+  border: 3%;
+  padding: 1%;
+  background-color: yellow;
+  border: 1px solid green;
+}
+main {
+  background-image: url(../assets/orderPageBackground.JPG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; 
+}
+div#pizza-preview {
+  top: 128px;
+  display: block;
+
   position: absolute;
-  text-align: center;
-  right: 25%;
-  top: 75px;
+  height: 600px;
+  width: 700px;
+  left: 40%;
+  background-color: rgb(37, 123, 151);
+  z-index: 0;
 }
-
-#dough {
+img#dough {
   position: relative;
-  z-index: -1;
-  top: 0;
-  left: 0;
-  margin: 0;
-  border: 0;
-  padding: 0;
+  left: 25%;
+  width: 350px;
+  top: 65px;
 }
-
 img.sauces {
-  position: relative;
-  top: 0;
-  left: 0;
-  z-index: 1;
-}
-
-img.cheeses {
-  position: relative;
-  top: 0;
-  left: 0;
   z-index: 2;
+  position: absolute;
+  left: 23%;
+  width: 380px;
+  bottom: 170px;
 }
-
-img.toppings {
-  position: relative;
-  top: 0;
-  left: 0;
+img.cheeses {
   z-index: 3;
+  position: absolute;
+  left: 29%;
+  width: 300px;
+  bottom: 211px;
+}
+img.toppings {
+  z-index: 4;
+  position: absolute;
+  left: 23%;
+  width: 370px;
+  bottom: 166px;
+}
+button#checkout {
+  position: relative;
+  left: 44%;
+  top: 86px;
+}
+tbody {
+  display: block;
+  position: relative;
+  overflow: auto;
+  height: 490px;
+  left: 19%;
+  background-color: rgb(37, 123, 151);
 }
 
 #foot {
-  padding: 1%;
+  position: relative;
+  padding-top: 1%;
+  padding-bottom: 1%;
   width:100%;
   background-color: rgb(37, 123, 151);
   text-align: center;
+  top: 90%;
+ 
 }
 
 #footer {
+    position: relative;
     display: inherit;
     text-align: center;
+    top: 90%;
+    width: 100%;
 }
