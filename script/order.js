@@ -6,32 +6,36 @@ function Pizza() {
   this.toppingNames = [];
 };
 
-function addTopping() {
+function toppingHandler() {
   var clickClass =  event.target.classList[0];
-  var clickToppingType = event.target.classList[1];
   var clickId = event.target.id;
   var clickName = event.target.name;
   console.log(myPizza.toppings.indexOf(clickClass));
   if (clickId === clickClass) {
     removeTopping(clickClass, clickName);
   } else if (myPizza.toppings.indexOf(clickClass) === -1) {
-    for (var i in allToppings) {
-      if (clickClass === allToppings[i]) {
-        myPizza.toppings.push(allToppings[i]);
-        myPizza.toppingNames.push(clickName);
-        console.log(`${clickName} added`);
+    addTopping(clickClass, clickName);
+  }
+}
 
-        var layerEl = document.getElementById('pizza-preview');
-        var imgEl = document.createElement('img');
-        imgEl.src = `../assets/${clickClass}Topping.png`;
-        imgEl.className = clickToppingType;
-        imgEl.id = clickName;
-        layerEl.appendChild(imgEl);
+function addTopping(topping, name) {
+  for (var i in allToppings) {
+    if (topping === allToppings[i]) {
+      myPizza.toppings.push(allToppings[i]);
+      myPizza.toppingNames.push(name);
+      console.log(`${name} added`);
 
-        var buttonEl = document.getElementById(clickClass);
-        console.log(buttonEl);
-        buttonEl.style.visibility = 'visible';
-      }
+      var layerEl = document.getElementById('pizza-preview');
+      var imgEl = document.createElement('img');
+      imgEl.src = `../assets/${topping}Topping.png`;
+      imgEl.className = document.getElementById(topping).classList[1];
+      console.log(imgEl.className);
+      imgEl.id = name;
+      layerEl.appendChild(imgEl);
+
+      var buttonEl = document.getElementById(topping);
+      console.log(buttonEl);
+      buttonEl.style.visibility = 'visible';
     }
   }
 }
@@ -65,8 +69,18 @@ function storeToCheckout() {
 
 var myPizza = new Pizza();
 
+if(localStorage.getItem('toppingData')) {
+  var toppingData = JSON.parse(localStorage.getItem('toppingData'));
+  var toppingNameData = JSON.parse(localStorage.getItem('toppingNameData'));
+  console.log(toppingData);
+  console.log(toppingNameData);
+  for (var i in toppingData) {
+    addTopping(toppingData[i], toppingNameData[i]);
+  }
+}
+
 var tableEl = document.getElementById('toppings');
-tableEl.addEventListener('click', addTopping);
+tableEl.addEventListener('click', toppingHandler);
 
 var submitEl = document.getElementById('orderButton');
 submitEl.addEventListener('click', storeToCheckout);
