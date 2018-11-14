@@ -60,10 +60,13 @@ div#orderCenter {
   to {transform: rotate(360deg);}
 }
 #pizzaPunk {
-  top: 20%; 
+  position: relative;
+  bottom: 450px;
+  left: 30%;
+  width: 900px;
   transform: rotate(0deg);
   animation-name: spinningPizza;
-  animation-duration: 1s;
+  animation-duration: 0.4s;
   animation-iteration-count: infinite;
 }
 
