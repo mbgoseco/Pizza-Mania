@@ -4,6 +4,7 @@ var allToppings = ['bacon', 'broccoli', 'canadianBacon', 'cilantro', 'mint', 're
 function Pizza() {
   this.toppings = [];
   this.toppingNames = [];
+  this.toppingType = [];
 };
 
 function toppingHandler() {
@@ -29,7 +30,7 @@ function addTopping(topping, name) {
       var imgEl = document.createElement('img');
       imgEl.src = `../assets/${topping}Topping.png`;
       imgEl.className = document.getElementById(topping).classList[1];
-      console.log(imgEl.className);
+      myPizza.toppingType.push(imgEl.className);
       imgEl.id = name;
       layerEl.appendChild(imgEl);
 
@@ -44,15 +45,11 @@ function removeTopping(topping, name) {
   for (var i in myPizza.toppings) {
     if (topping === myPizza.toppings[i]) {
       myPizza.toppings.splice(i, 1);
-      console.log(`${topping} removed`);
+      myPizza.toppingNames.splice(i, 1);
+      myPizza.toppingType.splice(i, 1);
     }
   }
-  for (var j in myPizza.toppingNames) {
-    if (name === myPizza.toppingNames[j]) {
-      myPizza.toppingNames.splice(j, 1);
-      console.log(`${name} removed`);
-    }
-  }
+
   var imgEl = document.getElementById(name);
   imgEl.parentNode.removeChild(imgEl);
 
@@ -61,10 +58,14 @@ function removeTopping(topping, name) {
 }
 
 function storeToCheckout() {
-  var toppingData = localStorage.setItem('toppingData', JSON.stringify(myPizza.toppings));
-  console.log(toppingData);
-  var toppingNameData = localStorage.setItem('toppingNameData', JSON.stringify(myPizza.toppingNames));
-  console.log(toppingNameData);
+  if (myPizza.toppings[0] !== undefined) {
+    var toppingData = localStorage.setItem('toppingData', JSON.stringify(myPizza.toppings));
+    console.log(toppingData);
+    var toppingNameData = localStorage.setItem('toppingNameData', JSON.stringify(myPizza.toppingNames));
+    console.log(toppingNameData);
+    var toppingTypeData = localStorage.setItem('toppingTypeData', JSON.stringify(myPizza.toppingType));
+    console.log(toppingTypeData);
+  }
   location.href = '../pages/checkout.html';
 }
 

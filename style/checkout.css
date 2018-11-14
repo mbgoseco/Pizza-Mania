@@ -1,6 +1,11 @@
 body {
   background-color: black;
 }
+
+h1 {
+  color: white;
+}
+
 header {
   width: 100%;
   background-color: #33b1ff;
@@ -70,6 +75,30 @@ input {
     text-align: center;
 }
 
-.toppings {
-
+#pizza-dough {
+  position: relative;
+  left: 25%;
+  width: 350px;
+  top: 22px;
+}
+img.sauces {
+  z-index: 2;
+  position: absolute;
+  left: 23%;
+  width: 380px;
+  bottom: 105px;
+}
+img.cheeses {
+  z-index: 3;
+  position: absolute;
+  left: 29%;
+  width: 295px;
+  bottom: 145px;
+}
+img.toppings {
+  z-index: 4;
+  position: absolute;
+  left: 23%;
+  width: 370px;
+  bottom: 85px;
 }
