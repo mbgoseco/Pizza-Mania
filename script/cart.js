@@ -29,6 +29,13 @@ function addTopping(topping, name, type) {
 
 function buildList(name) {
   var toppingList = document.getElementById('toppingList');
+  var liEl = document.createElement('li');
+  liEl.innerText = name;
+  toppingList.appendChild(liEl);
+}
+
+function handleButtons() {
+  var buttonId = event.target.id;
   
 }
 
@@ -46,3 +53,6 @@ function buildPizza() {
     buildList(toppingNameData[i]);
   }
 }
+
+var buttonEls = document.getElementById('button-box');
+buttonEls.addEventListener('click', handleButtons);
