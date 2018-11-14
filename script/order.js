@@ -56,7 +56,17 @@ function removeTopping(topping, name) {
   buttonEl.style.visibility = 'hidden';
 }
 
+function storeToCheckout() {
+  var toppingData = localStorage.setItem('toppingData', JSON.stringify(myPizza.toppings));
+  console.log(toppingData);
+  var toppingNameData = localStorage.setItem('toppingNameData', JSON.stringify(myPizza.toppingNames));
+  console.log(toppingNameData);
+}
+
 var myPizza = new Pizza();
 
 var tableEl = document.getElementById('toppings');
 tableEl.addEventListener('click', addTopping);
+
+var submitEl = document.getElementById('orderButton');
+submitEl.addEventListener('click', storeToCheckout);
