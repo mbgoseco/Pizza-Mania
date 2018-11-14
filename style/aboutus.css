@@ -65,6 +65,18 @@ main {
   width: 100%;
 
 }
+
+#name {
+  color: white;
+  border: yellow;
+  border-style: double;
+  border-radius: 3%;  
+}
+
+p#statement {
+  text-align: center;
+}
+
 .ourPics {
   width: 200px;
   height: 200px;
@@ -80,6 +92,7 @@ td {
   position: absolute;
   padding-top: 5%;
   bottom: 20%;
+  text-align: center;
 }
 table {
   position: absolute;
@@ -104,3 +117,4 @@ table {
     display: inherit;
     text-align: center;
 }
+
