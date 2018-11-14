@@ -77,12 +77,6 @@ main {
 #placeOrder {
   text-align: center;
 }
-div#orderCenter {
-  position: relative;
-  right: -2%;
-  text-align: -webkit-center;
-  z-index: 6;
-}
 #board {
   background-image: url(../assets/cutting-board-2693412_960_720.jpg);
   background-repeat: no-repeat;
@@ -94,6 +88,13 @@ div#orderCenter {
   bottom: 376px;
   left: 21%;
   z-index: 0;
+}
+#orderCenter.image {
+  position: relative;
+  right: -2%;
+  transform: rotate(270deg);
+  text-align: -webkit-center;
+  z-index: 6;
 }
 @keyframes spinningPizza {
   from {transform: rotate(0deg);}
