@@ -174,6 +174,19 @@ a.button {
   border-radius: 10px;
 }
 
+#yellowButton {
+font-size: 15px;
+background-color: yellow;
+font-family: monospace;
+margin-right: 17px;
+margin-bottom: 7px;
+position: relative;
+border-radius: 10px;
+width: 100px;
+bottom: 8%;
+right: 9%;
+position: absolute;
+}
 #foot {
   position: relative;
   padding-top: 1%;
