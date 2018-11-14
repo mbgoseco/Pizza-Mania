@@ -61,6 +61,22 @@ div#orderCenter {
   text-align: -webkit-center;
 }
 
+@keyframes spinningPizza {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+#pizzaPunk {
+  position: relative;
+  bottom: 450px;
+  left: 25%;
+  width: 900px;
+  transform: rotate(0deg);
+  animation-name: spinningPizza;
+  animation-duration: 12s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
 #foot {
   position: fixed;
   padding: 1%;
