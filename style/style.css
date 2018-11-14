@@ -18,11 +18,12 @@ header {
 }
 
 #orderButton {
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
   margin: 10%;
+  position: relative;
   font-size: 30px;
-  background-color:  yellow;
+  background-color: yellow;
+  bottom: 85px;
+  left: -2%;
   font-family: monospace;
 }
 #navBar {
@@ -56,9 +57,6 @@ main {
 div#orderCenter {
   position: relative;
   right: -2%;
-  /* top: 32%; */
-  /* width: 68%; */
-  /* height: 298px; */
   text-align: -webkit-center;
   z-index: 6;
 }
@@ -70,7 +68,7 @@ div#orderCenter {
   transform: rotate(90deg);
   width: 1000px;
   height: 1000px;
-  bottom: 369px;
+  bottom: 376px;
   left: 21%;
   z-index: 0;
 }
