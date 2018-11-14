@@ -1,9 +1,6 @@
-
 header {
   width: 100%;
-  background-color: rgb(37, 123, 151);
-  top: 0%;
-  position: relative;
+  background-color: #33b1ff;
   z-index: 2;
 }
 #titleImage {
@@ -11,110 +8,179 @@ header {
   width: 32%;
   left: 34%;
 }
-#navBar {
-  border: 1px solid;
-  text-align: center;
-  background-color: green;
-  padding: 1.5%;
-}
-
 button[value="remove"] {
   visibility: hidden;
+  margin-right: 20px;
+  margin-left: 5px;
+  position: relative;
+  bottom: 10px;
+  border-radius: 16px;
 }
 
+#navBar {
+  position: relative;
+  border: 2px solid black;
+  text-align: center;
+  background-color: #ccc;
+  z-index: 2;
+}
+#greenFoot {
+  position: relative;
+  border: 2px solid black;
+  height: 17px;
+  bottom: 20px;
+  background-color: #ccc;
+  z-index: 2;
+}
 .navItems {
+  position: relative;
   display: inline;
-  border: dashed;
-  padding: .5%;
+  border: 3%;
+  padding: 1%;
   background-color: yellow;
-  border: 1px solid green;
-  border-radius: 16px;
+  border-radius: 10px;
+  border: 3px solid black;
+  z-index: 2;
+  font-family: monospace;
+  font-size: 13px;
 }
 main {
   background-image: url(../assets/orderPageBackground.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%; 
-  height: 690px;
 }
 div#pizza-preview {
-  top: 172px;
-  display: block;
-  position: absolute;
-  height: 550px;
   width: 700px;
+  position: absolute;
+  display: block;
+  top: 165px;
+  height: 490px;
   left: 40%;
   background-image: url(../assets/cutting-board-2693412_960_720.jpg);
   z-index: 0;
+  border-right: black 5px solid;
+  border-left: black 5px solid;
 }
 img#dough {
   position: relative;
   left: 25%;
   width: 350px;
-  top: 65px;
+  top: 22px;
 }
 img.sauces {
   z-index: 2;
   position: absolute;
   left: 23%;
   width: 380px;
-  bottom: 118px;
+  bottom: 105px;
 }
 img.cheeses {
   z-index: 3;
   position: absolute;
   left: 29%;
-  width: 300px;
-  bottom: 160px;
+  width: 295px;
+  bottom: 145px;
 }
 img.toppings {
   z-index: 4;
   position: absolute;
   left: 23%;
   width: 370px;
-  bottom: 100px;
+  bottom: 85px;
 }
-
+button#checkout {
+  position: relative;
+  left: 44%;
+  top: 86px;
+}
 tbody {
   display: block;
   position: relative;
   overflow: auto;
-  top: 10px;
   height: 490px;
   left: 19%;
   background-image: url(../assets/cutting-board-2693412_960_720.jpg);
-}
-
-#orderCenter {
+  border-right: black 5px solid;
+  border-left: black 5px solid;
+  z-index: 0;
+  font-size: 25px;
+  font-weight: 600;
+  font-family: monospace;
   text-align: center;
 }
-
-#orderButton, #cancelButton {
-  border-radius: 28px;
-  margin-top: 15%;
+td {
+  border-bottom: black 3px solid;
+}
+th.toppingType {
+  color: yellow;
+  padding-bottom: 5px; 
+  font-family: monospace;
+  font-size: 25px;
+  border-bottom: black 3px dashed;
+}
+ button.sauces {
+  font-size: 15px;
+  background-color: yellow;
+  font-family: monospace;
+  margin-right: 17px;
+  margin-bottom: 7px;
+  position: relative;
+  border-radius: 10px;
+  
+ }
+ button.cheeses {
+  font-size: 15px;
+  background-color: yellow;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 17px;
+  margin-bottom: 7px;
+  position: relative;
+  border-radius: 10px;
+ }
+ button.toppings {
+  font-size: 15px;
+  background-color: yellow;
+  font-family: monospace;
+  margin-top: 20px;
+  margin-right: 17px;
+  margin-bottom: 7px;
+  position: relative;
+  border-radius: 10px;
+ }
+img {
+  right: 13px;
+  position: relative;
+  width: 25px;
+}
+#orderButton {
+  border-radius: 28;
+  margin: 10%;
   font-size: 30px;
-  padding-left: 8px;
-  padding-right: 8px;
   background-color:  yellow;
   font-family: monospace;
-  display: inline-block;
+  border-radius: 10px;
+}
+
+a.button {
   position: relative;
-  bottom: 10px;
+  left: 25%;
+  border-radius: 10px;
 }
 
 #foot {
   position: relative;
   padding-top: 1%;
-  padding-bottom: 1%;
-  margin: 0;
-  width:100%;
-  background-color: rgb(37, 123, 151);
+  padding-bottom: 11px ;
+  background-color: #33b1ff;
   text-align: center;
-  bottom: 0%;
-  z-index: 6;
 }
 
 #footer {
+    position: relative;
     display: inherit;
     text-align: center;
+    top: 90%;
+    width: 100%;
 }
