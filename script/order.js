@@ -65,6 +65,12 @@ function storeToCheckout() {
   console.log(toppingData);
   var toppingNameData = localStorage.setItem('toppingNameData', JSON.stringify(myPizza.toppingNames));
   console.log(toppingNameData);
+  location.href = '../pages/checkout.html';
+}
+
+function clearAll() {
+  localStorage.clear();
+  location.reload();
 }
 
 var myPizza = new Pizza();
@@ -84,3 +90,6 @@ tableEl.addEventListener('click', toppingHandler);
 
 var submitEl = document.getElementById('orderButton');
 submitEl.addEventListener('click', storeToCheckout);
+
+var cancelEl = document.getElementById('cancelButton');
+cancelEl.addEventListener('click', clearAll);

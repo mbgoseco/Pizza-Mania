@@ -53,7 +53,7 @@ input {
   position: absolute;
 }
 #foot {
-  position: fixed;
+  position: relative;
   padding: 1%;
   width:100%;
   background-color: rgb(37, 123, 151);
@@ -65,4 +65,8 @@ input {
 #footer {
     display: inherit;
     text-align: center;
+}
+
+.toppings {
+
 }
