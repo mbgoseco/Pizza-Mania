@@ -8,8 +8,13 @@ if(localStorage.getItem('toppingData')) {
   buildPizza();
 } else {
   var emptyEl = document.createElement('h1');
+  var hideCheckout = document.getElementById('checkoutButton');
+  var hideCancel = document.getElementById('cancel');
   emptyEl.innerText = 'YOUR CART IS EMPTY!';
   cartWindow.appendChild(emptyEl);
+  hideCheckout.style.visibility = 'hidden';
+  hideCancel.style.visibility = 'hidden';
+
 }
 
 function addTopping(topping, name, type) {
