@@ -1,14 +1,12 @@
 <!doctype HTML>
 <html>
-
-<head>
-    <title>Order Pizza</title>
-    <link rel="stylesheet" href="../style/reset.css" />
-    <link rel="stylesheet" href="../style/order.css" />
-</head>
-
-<body>
-    <header>
+    <head>
+        <title>Order Pizza</title>
+        <link rel="stylesheet" href="../style/reset.css" />
+        <link rel="stylesheet" href="../style/order.css" />
+    </head>
+    <body>
+        <header>
         <img id="titleImage" src="../assets/pizza_mania.png">
         <div id="navBar">
             <nav id="navigate"></nav>
@@ -22,151 +20,151 @@
             </nav>
         </div>
     </header>
-    <main>
-
-        <div>
-            <table id="toppings">
-                <tr>
-                    <th>
-                        Sauces
-                    </th>
-                </tr>
-                <tr>
-                    <td><button class="marinaraSauce sauces" value="remove" name="Marinara Sauce">X</button></td>
-                    <td><img src='../assets/marinaraSauce.png'></td>
-                    <td>Mainara Sauce</td>
-                    <td><button id=addbutton class="marinaraSauce sauces" name="Marinara Sauce">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="alfredoSauce sauces" value="remove" name="Alfredo Sauce">X</button></td>
-                    <td><img src='../assets/alfredoSauce.png'></td>
-                    <td>Alfredo Sauce</td>
-                    <td><button id=addbutton class="alfredoSauce sauces" name="Alfredo Sauce">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="BBQSauce sauces" value="remove" name="BBQ Sauce">X</button></td>
-                    <td><img src='../assets/BBQSauce.png'></td>
-                    <td>BBQ Sauce</td>
-                    <td><button id=addbutton class="BBQSauce sauces" name="BBQ Sauce">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="pestoSauce sauces" value="remove" name="Pesto Sauce">X</button></td>
-                    <td><img src='../assets/pestoSauce.png'></td>
-                    <td>Pesto</td>
-                    <td><button id=addbutton class="pestoSauce sauces" name="Pesto Sauce">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <th>
-                        Cheeses
-                    </th>
-                </tr>
-                <tr>
-                    <td><button class="cheddarCheese cheeses" value="remove" name="Cheddar Cheese">X</button></td>
-                    <td><img src='../assets/cheddarCheese.png'></td>
-                    <td>Cheddar</td>
-                    <td><button id=addbutton class="cheddarCheese cheeses" name="Cheddar Cheese">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="americanCheese cheeses" value="remove" name="American Cheese">X</button></td>
-                    <td><img src='../assets/americanCheese.png'></td>
-                    <td>American</td>
-                    <td><button id=addbutton class="americanCheese cheeses" name="American Cheese">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="mozzorella cheeses" value="remove" name="Mozzorella Cheese">X</button></td>
-                    <td><img src='../assets/mozzorella.png'></td>
-                    <td>Mozorella</td>
-                    <td><button id=addbutton class="mozzorella cheeses" name="Mozzorella Cheese">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <th>
-                        Toppings
-                    </th>
-                </tr>
-                <tr>
-                    <td><button class="pepperoni toppings" value="remove" name="Pepperoni">X</button></td>
-                    <td><img src='../assets/pepperoni.png'></td>
-                    <td>Pepperoni</td>
-                    <td><button id=addbutton class="pepperoni toppings" name="Pepperoni">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="bacon toppings" value="remove" name="Bacon">X</button></td>
-                    <td><img src='../assets/bacon.png'></td>
-                    <td>Bacon</td>
-                    <td><button id=addbutton class="bacon toppings" name="Bacon">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="shrimp toppings" value="remove" name="Shrimp">X</button></td>
-                    <td><img src='../assets/shrimp.png'></td>
-                    <td>Shrimp</td>
-                    <td><button id=addbutton class="shrimp toppings" name="Shrimp">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="canadianBacon toppings" value="remove" name="Canadian Bacon">X</button></td>
-                    <td><img src='../assets/canadianBacon.png'></td>
-                    <td>Canadian Bacon</td>
-                    <td><button id=addbutton class="canadianBacon toppings" name="Canadian Bacon">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="turkeyBacon toppings" value="remove" name="Turkey Bacon">X</button></td>
-                    <td><img src='../assets/turkeyBacon.png'></td>
-                    <td>Turkey Bacon</td>
-                    <td><button id=addbutton class="turkeyBacon toppings" name="Turkey Bacon">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="olive toppings" value="remove" name="Olives">X</button></td>
-                    <td><img src='../assets/olive.png'></td>
-                    <td>Olives</td>
-                    <td><button id=addbutton class="olive toppings" name="Olives">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="tomato toppings" value="remove" name="Tomato">X</button></td>
-                    <td><img src='../assets/tomato.png'></td>
-                    <td>Tomatoes</td>
-                    <td><button id=addbutton class="tomato toppings" name="Tomato">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="mushroom toppings" value="remove" name="Mushrooms">X</button></td>
-                    <td><img src='../assets/mushroom.png'></td>
-                    <td>Mushrooms</td>
-                    <td><button id=addbutton class="mushroom toppings" name="Mushrooms">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="broccoli toppings" value="remove" name="Broccoli">X</button></td>
-                    <td><img src='../assets/broccoli.png'></td>
-                    <td>Brocolli</td>
-                    <td><button id=addbutton class="broccoli toppings" name="Broccoli">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="cilantro toppings" value="remove" name="Cilantro">X</button></td>
-                    <td><img src='../assets/cilantro.png'></td>
-                    <td>Cilantro</td>
-                    <td><button id=addbutton class="cilantro toppings" name="Cilantro">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="mint toppings" value="remove" name="Mint">X</button></td>
-                    <td><img src='../assets/mint.png'></td>
-                    <td>Mint</td>
-                    <td><button id=addbutton class="mint toppings" name="Mint">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="redPepper toppings" value="remove" name="Red Peppers">X</button></td>
-                    <td><img src='../assets/redPepper.png'></td>
-                    <td>Red Peppers</td>
-                    <td><button id=addbutton class="redPepper toppings" name="Red Peppers">Add to pizza</button></td>
-                </tr>
-                <tr>
-                    <td><button class="onion toppings" value="remove" name="Onions">X</button></td>
-                    <td><img src='../assets/onion.png'></td>
-                    <td>Onions</td>
-                    <td><button id=addbutton class="onion toppings" name="Onions">Add to pizza</button></td>
-                </tr>
-            </table>
-        </div>
+        <main>
+            <div>
+                <table id="toppings">
+                    <tr>
+                        <th>
+                            Sauces
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><button class="marinaraSauce sauces" id="marinaraSauce" value="remove" name="Marinara Sauce">X</button></td>
+                        <td><img src = '../assets/marinaraSauce.png'></td>
+                        <td>Mainara Sauce</td>
+                        <td><button class="marinaraSauce sauces" name="Marinara Sauce">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="alfredoSauce sauces" id="alfredoSauce" value="remove" name="Alfredo Sauce">X</button></td>
+                        <td><img src = '../assets/alfredoSauce.png'></td>
+                        <td>Alfredo Sauce</td>
+                        <td><button class="alfredoSauce sauces" name="Alfredo Sauce">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="BBQSauce sauces" id="BBQSauce" value="remove" name="BBQ Sauce">X</button></td>
+                        <td><img src = '../assets/BBQSauce.png'></td>
+                        <td>BBQ Sauce</td>
+                        <td><button class="BBQSauce sauces" name="BBQ Sauce">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="pestoSauce sauces" id="pestoSauce" value="remove" name="Pesto Sauce">X</button></td>
+                        <td><img src = '../assets/pestoSauce.png'></td>
+                        <td>Pesto</td>
+                        <td><button class="pestoSauce sauces" name="Pesto Sauce">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Cheeses
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><button class="cheddarCheese cheeses" id="cheddarCheese" value="remove" name="Cheddar Cheese">X</button></td>
+                        <td><img src = '../assets/cheddarCheese.png'></td>
+                        <td>Cheddar</td>
+                        <td><button class="cheddarCheese cheeses" name="Cheddar Cheese">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="americanCheese cheeses" id="americanCheese" value="remove" name="American Cheese">X</button></td>
+                        <td><img src = '../assets/americanCheese.png'></td>
+                        <td>American</td>
+                        <td><button class="americanCheese cheeses" name="American Cheese">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="mozzorella cheeses" id="mozzorella" value="remove" name="Mozzorella Cheese">X</button></td>
+                        <td><img src = '../assets/mozzorella.png'></td>
+                        <td>Mozorella</td>
+                        <td><button class="mozzorella cheeses" name="Mozzorella Cheese">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <th>
+                            Toppings
+                        </th>
+                    </tr>
+                    <tr>
+                        <td><button class="pepperoni toppings" id="pepperoni" value="remove" name="Pepperoni">X</button></td>
+                        <td><img src = '../assets/pepperoni.png'></td>
+                        <td>Pepperoni</td>
+                        <td><button class="pepperoni toppings" name="Pepperoni">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="bacon toppings" id="bacon" value="remove" name="Bacon">X</button></td>
+                        <td><img src = '../assets/bacon.png'></td>
+                        <td>Bacon</td>
+                        <td><button class="bacon toppings" name="Bacon">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="shrimp toppings" id="shrimp" value="remove" name="Shrimp">X</button></td>
+                        <td><img src = '../assets/shrimp.png'></td>
+                        <td>Shrimp</td>
+                        <td><button class="shrimp toppings" name="Shrimp">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="canadianBacon toppings" id="canadianBacon" value="remove" name="Canadian Bacon">X</button></td>
+                        <td><img src = '../assets/canadianBacon.png'></td>
+                        <td>Canadian Bacon</td>
+                        <td><button class="canadianBacon toppings" name="Canadian Bacon">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="turkeyBacon toppings" id="turkeyBacon" value="remove" name="Turkey Bacon">X</button></td>
+                        <td><img src = '../assets/turkeyBacon.png'></td>
+                        <td>Turkey Bacon</td>
+                        <td><button class="turkeyBacon toppings" name="Turkey Bacon">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="olive toppings" id="olive" value="remove" name="Olives">X</button></td>
+                        <td><img src = '../assets/olive.png'></td>
+                        <td>Olives</td>
+                        <td><button class="olive toppings" name="Olives">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="tomato toppings" id="tomato" value="remove" name="Tomato">X</button></td>
+                        <td><img src = '../assets/tomato.png'></td>
+                        <td>Tomatoes</td>
+                        <td><button class="tomato toppings" name="Tomato">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="mushroom toppings" id="mushroom" value="remove" name="Mushrooms">X</button></td>
+                        <td><img src = '../assets/mushroom.png'></td>
+                        <td>Mushrooms</td>
+                        <td><button class="mushroom toppings" name="Mushrooms">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="broccoli toppings" id="broccoli" value="remove" name="Broccoli">X</button></td>
+                        <td><img src = '../assets/broccoli.png'></td>
+                        <td>Brocolli</td>
+                        <td><button class="broccoli toppings" name="Broccoli">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="cilantro toppings" id="cilantro" value="remove" name="Cilantro">X</button></td>
+                        <td><img src = '../assets/cilantro.png'></td>
+                        <td>Cilantro</td>
+                        <td><button class="cilantro toppings" name="Cilantro">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="mint toppings" id="mint" value="remove" name="Mint">X</button></td>
+                        <td><img src = '../assets/mint.png'></td>
+                        <td>Mint</td>
+                        <td><button class="mint toppings" name="Mint">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="redPepper toppings" id="redPepper" value="remove" name="Red Peppers">X</button></td>
+                        <td><img src = '../assets/redPepper.png'></td>
+                        <td>Red Peppers</td>
+                        <td><button class="redPepper toppings" name="Red Peppers">Add to pizza</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="onion toppings" id="onion" value="remove" name="Onions">X</button></td>
+                        <td><img src = '../assets/onion.png'></td>
+                        <td>Onions</td>
+                        <td><button class="onion toppings" name="Onions">Add to pizza</button></td>
+                    </tr>
+                </table>
+            </div>
         <div id="pizza-preview">
-            <img id="dough" src='../assets/pizzadough.png'><br>
+            <img id="dough" src='../assets/pizzadough.png'>
             <div id="orderCenter">
-                <a class="button" href="./pages/order.html"><button id="orderButton">Add to Cart!</button></a>
+              <button id="orderButton">Proceed to Checkout</button>
+              <button id="cancelButton">Start Over</button>
             </div>
         </div>
     </main>
@@ -181,6 +179,5 @@
         </nav> 1888-345-6789
     </footer>
     <script src="../script/order.js"></script>
-</body>
-
+    </body>
 </html>
