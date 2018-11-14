@@ -1,9 +1,13 @@
-body {
-  background-color: black;
-}
 
 h1 {
-  color: white;
+  position: relative;
+  font-size: 32px;
+  background-color:  yellow;
+  font-family: monospace;
+  display: inline-block;
+  left: 32%;
+  top: 100px;
+  z-index: 3;
 }
 @keyframes colorTrans {
   0% {background-color: #88d1f5;}
@@ -14,7 +18,8 @@ h1 {
 
 }
 header {
-  width: 100%;
+  position: absolute;
+  background-color: #33b1ff;
   z-index: 2;
   background-color: #88d1f5;
   animation-name: colorTrans;
@@ -26,6 +31,7 @@ header {
   width: 32%;
   left: 34%;
 }
+
 #navBar {
   position: relative;
   border: 2px solid black;
@@ -37,6 +43,7 @@ header {
   animation-iteration-count: infinite;
   animation-delay: 15s;
 }
+
 .navItems {
   position: relative;
   display: inline;
@@ -53,12 +60,11 @@ header {
   animation-iteration-count: infinite;
   animation-delay: 30s;
 }
+
 main {
   background-image: url('../assets/pizzaLine.JPG');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80%;
-  width: 100%;
 }
 
 input {
@@ -82,48 +88,83 @@ input {
 #orderingBox {
   position: relative;
   width: 60%;
-  font-size: -webkit-xxx-large;
-  height: 407px;
-  top: -17px;
+  height: 550px;
   left: 20%;
-  z-index: 1;
-  background-image: url('../assets/cutting-board-2693412_960_720.jpg');
-  background-repeat: no-repeat;
-  color: white;
+  background-image: url(../assets/cutting-board-2693412_960_720.jpg);
+  background-size: cover;
+  color: black;
+  border-right: black 5px solid;
+  border-left: black 5px solid;
 }
-#cancel, #checkoutButton {
-  width: 100px;
-  bottom: 8%;
-  right: 9%;
+
+#checkoutButton {
+  bottom: 11%;
+  right: 35%;
   position: absolute;
+  border-radius: 28px;
+  margin-top: 15%;
+  font-size: 24px;
+  background-color:  yellow;
+  font-family: monospace;
+  display: inline-block;
 }
+
+#cancel {
+  bottom: 4%;
+  right: 36.5%;
+  position: absolute;
+  border-radius: 28px;
+  margin-top: 15%;
+  font-size: 12px;
+  background-color:  yellow;
+  font-family: monospace;
+  display: inline-block;
+}
+
 #pizza-dough {
   position: relative;
-  left: 25%;
+  left: 59%;
   width: 350px;
-  top: 22px;
+  top: 79px;
 }
+
 img.sauces {
   z-index: 2;
   position: absolute;
-  left: 23%;
+  left: 57%;
   width: 380px;
   bottom: 105px;
 }
+
 img.cheeses {
   z-index: 3;
   position: absolute;
-  left: 29%;
+  left: 62%;
   width: 295px;
-  bottom: 145px;
+  bottom: 150px;
 }
+
 img.toppings {
   z-index: 4;
   position: absolute;
-  left: 23%;
+  left: 59%;
   width: 370px;
   bottom: 85px;
 }
+
+ul#toppingList {
+	display: inline-block;
+  position: relative;
+  left: 25%;
+  top: 300px;
+  font-size: 26px;
+  overflow: auto;
+  font-family: monospace;
+  text-align: center;
+  z-index: 4;
+  width: 400px;
+}
+
 #foot {
   position: fixed;
   padding: 1%;
