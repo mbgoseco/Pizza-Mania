@@ -113,6 +113,7 @@ header {
     left: 69%;
     width: 380px;
     bottom: 71px;
+
   }
   img.ourCheeses {
     z-index: 3;
@@ -120,6 +121,7 @@ header {
     left: 72%;
     width: 295px;
     bottom: 115px;
+
   }
   img.ourToppings {
     z-index: 4;
