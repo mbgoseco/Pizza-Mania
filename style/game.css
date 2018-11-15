@@ -1,0 +1,221 @@
+header {
+    width: 100%;
+    z-index: 2;
+    background-color: #33b1ff;
+  }
+  #titleImage {
+    position: relative;
+    width: 32%;
+    left: 34%;
+  }
+  button[value="remove"] {
+    visibility: hidden;
+    margin-right: 20px;
+    margin-left: 5px;
+    position: relative;
+    bottom: 10px;
+    border-radius: 16px;
+  }
+  
+  #navBar {
+    position: relative;
+    border: 2px solid black;
+    text-align: center;
+    z-index: 2;
+    background-color: #ccc;
+  }
+  .navItems {
+    position: relative;
+    display: inline;
+    border: 3%;
+    padding: 1%;
+    border-radius: 10px;
+    border: 3px solid black;
+    z-index: 2;
+    font-family: monospace;
+    font-size: 13px;
+    background-color: #fbff00;
+  }
+  main {
+    background-image: url(../assets/orderPageBackground.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+    height: 650px;
+  }
+  div#pizza-preview {
+    width: 700px;
+    position: absolute;
+    display: block;
+    top: 165px;
+    height: 490px;
+    left: 40%;
+    background-image: url(../assets/cutting-board-2693412_960_720.jpg);
+    z-index: 0;
+    border-right: black 5px solid;
+    border-left: black 5px solid;
+  }
+  img#dough {
+    position: relative;
+    left: 25%;
+    width: 350px;
+    top: 22px;
+  }
+  img.sauces {
+    z-index: 2;
+    position: absolute;
+    left: 23%;
+    width: 380px;
+    bottom: 105px;
+  }
+  img.cheeses {
+    z-index: 3;
+    position: absolute;
+    left: 29%;
+    width: 295px;
+    bottom: 145px;
+  }
+  img.toppings {
+    z-index: 4;
+    position: absolute;
+    left: 23%;
+    width: 370px;
+    bottom: 85px;
+  }
+  
+  tbody {
+    display: block;
+    position: relative;
+    overflow: auto;
+    height: 490px;
+    left: 19%;
+    background-image: url(../assets/cutting-board-2693412_960_720.jpg);
+    border-right: black 5px solid;
+    border-left: black 5px solid;
+    z-index: 0;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: monospace;
+    text-align: center;
+  }
+  td {
+    border-bottom: black 3px solid;
+  }
+  th.toppingType {
+    color: yellow;
+    padding-bottom: 5px; 
+    font-family: monospace;
+    font-size: 25px;
+    border-bottom: black 3px dashed;
+  }
+  button.sauces {
+    font-size: 15px;
+    font-family: monospace;
+    margin-right: 17px;
+    margin-bottom: 7px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #ff3928;
+    animation-name: colorTrans;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-delay: 30s;  
+  }
+  button.cheeses {
+    font-size: 15px;
+    font-family: monospace;
+    margin-top: 20px;
+    margin-right: 17px;
+    margin-bottom: 7px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #ff3928;
+    animation-name: colorTrans;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-delay: 30s;
+  }
+  button.toppings {
+    font-size: 15px;
+    font-family: monospace;
+    margin-top: 20px;
+    margin-right: 17px;
+    margin-bottom: 7px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #ff3928;
+    animation-name: colorTrans;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-delay: 30s;
+  }
+  img {
+    right: 13px;
+    position: relative;
+    width: 25px;
+  }
+  
+  #orderCenter {
+    text-align: center;
+  }
+  
+  #orderButton, #cancelButton {
+    border-radius: 28px;
+    margin-top: 15%;
+    font-size: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-family: monospace;
+    display: inline-block;
+    position: relative;
+    bottom: 50px;
+    background-color: #fbff00;
+  }
+  
+  a.button {
+    position: relative;
+    left: 25%;
+    border-radius: 10px;
+  }
+  
+  #yellowButton {
+  font-size: 15px;
+  background-color: yellow;
+  font-family: monospace;
+  margin-right: 17px;
+  margin-bottom: 7px;
+  position: relative;
+  border-radius: 10px;
+  width: 100px;
+  bottom: 8%;
+  right: 9%;
+  position: absolute;
+  }
+  #foot {
+    position: relative;
+    padding-top: 1%;
+    padding-bottom: 11px ;
+    text-align: center;
+    text-emphasis-color: white;
+    background-color: #fac967;
+    animation-name: colorTrans;
+    animation-duration: 60s;
+    animation-iteration-count: infinite;
+    animation-delay: 45s;
+  }
+  #greenFoot {
+    position: relative;
+    border: 2px solid black;
+    height: 17px;
+    bottom: 20px;
+    z-index: 2;
+    background-color: #33b1ff;
+  }
+  
+  #footer {
+      position: relative;
+      display: inherit;
+      text-align: center;
+      top: 90%;
+      width: 100%;
+  }
