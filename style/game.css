@@ -62,22 +62,28 @@ header {
     height: 650px;
   }
   div#pizza-preview {
-    width: 700px;
+    width: 1400px;
     position: absolute;
     display: block;
     top: 165px;
-    height: 490px;
-    left: 40%;
+    height: 100%;
+    left: 9%;
     background-image: url(../assets/cutting-board-2693412_960_720.jpg);
     z-index: 0;
     border-right: black 5px solid;
     border-left: black 5px solid;
   }
-  img#dough {
+  img#yourDough {
     position: relative;
-    left: 25%;
+    left: 39%;
     width: 350px;
-    top: 22px;
+    top: 102px;
+  }
+  img#ourDough {
+    position: relative;
+    left: 45%;
+    width: 350px;
+    top: 102px;
   }
   img.sauces {
     z-index: 2;
@@ -106,7 +112,8 @@ header {
     position: relative;
     overflow: auto;
     height: 490px;
-    left: 19%;
+    left: 11%;
+    top: -296px;
     background-image: url(../assets/cutting-board-2693412_960_720.jpg);
     border-right: black 5px solid;
     border-left: black 5px solid;
@@ -186,10 +193,13 @@ header {
     font-family: monospace;
     display: inline-block;
     position: relative;
-    bottom: 50px;
+    top: -580px;
+    left: 9%;
     background-color: #fbff00;
   }
-  
+  #cancelButton {
+    left: 20%;
+  }
   a.button {
     position: relative;
     left: 25%;
