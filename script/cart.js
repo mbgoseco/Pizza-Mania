@@ -10,11 +10,12 @@ if(localStorage.getItem('toppingData')) {
   var emptyEl = document.createElement('h1');
   var hideCheckout = document.getElementById('checkoutButton');
   var hideCancel = document.getElementById('cancel');
+  var pEl = document.getElementById('toppingTitle');
   emptyEl.innerText = 'YOUR CART IS EMPTY!';
   cartWindow.appendChild(emptyEl);
   hideCheckout.style.visibility = 'hidden';
   hideCancel.style.visibility = 'hidden';
-
+  pEl.style.visibility = 'hidden';
 }
 
 function addTopping(topping, name, type) {
