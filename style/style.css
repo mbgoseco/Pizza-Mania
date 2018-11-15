@@ -1,17 +1,10 @@
-main {
-  background-image: url('../assets/pizzaOven.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 80%;
-  width: 100%;
-}
 @keyframes colorTrans {
   0% {background-color: #88d1f5;}
   25% {background-color: #8d88f5;}
   50% {background-color: #ff3928;}
   75% {background-color: #fac967;}
   100% {background-color: #88d1f5;}
-
+  
 }
 header {
   width: 100%;
@@ -55,19 +48,36 @@ header {
   animation-iteration-count: infinite;
   animation-delay: 30s;
 }
+body {
+}
+main {
+  position: fixed;
+  background-image: url('../assets/pizzaOven.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  width: 100%;
+}
 
 #orderButton {
-  margin: 10%;
-  position: relative;
-  font-size: 30px;
-  bottom: 85px;
-  left: -2%;
+  position: absolute;
+  margin: 1%;
+  font-size: 150%;
+  top: 47%;
+  bottom: 53%;
+  left: 0%;
+  right: 100%;
+  width: 24%;
+  height: 5%;
+  border-radius: 43%;
+  transform: rotate(-90deg);
   font-family: monospace;
   background-color: #ff3928;
   animation-name: colorTrans;
   animation-duration: 60s;
   animation-iteration-count: infinite;
   animation-delay: 30s;
+  z-index: 8;
 }
 #placeOrder {
   text-align: center;
@@ -76,20 +86,13 @@ header {
   background-image: url(../assets/cutting-board-2693412_960_720.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  position: absolute;
   transform: rotate(90deg);
   width: 1000px;
   height: 1000px;
-  bottom: 376px;
+  top: 0%;
   left: 21%;
-  z-index: 0;
-}
-#orderCenter.image {
-  position: relative;
-  right: -2%;
-  transform: rotate(270deg);
-  text-align: -webkit-center;
-  z-index: 6;
+  z-index: -0;
 }
 @keyframes spinningPizza {
   from {transform: rotate(0deg);}
