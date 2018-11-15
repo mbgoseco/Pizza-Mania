@@ -88,23 +88,23 @@ header {
   img.sauces {
     z-index: 2;
     position: absolute;
-    left: 23%;
+    left: 38%;
     width: 380px;
-    bottom: 105px;
+    bottom: 200px;
   }
   img.cheeses {
     z-index: 3;
     position: absolute;
-    left: 29%;
+    left: 41%;
     width: 295px;
-    bottom: 145px;
+    bottom: 244px;
   }
   img.toppings {
     z-index: 4;
     position: absolute;
-    left: 23%;
+    left: 39%;
     width: 370px;
-    bottom: 85px;
+    bottom: 182px;
   }
 
   table {
