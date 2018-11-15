@@ -79,38 +79,61 @@ header {
     width: 350px;
     top: 102px;
   }
+  img.sauces {
+    z-index: 2;
+    position: absolute;
+    left: 38%;
+    width: 380px;
+    bottom: 71px;
+  }
+  img.cheeses {
+    z-index: 3;
+    position: absolute;
+    left: 41%;
+    width: 295px;
+    bottom: 115px;
+  }
+  img.toppings {
+    z-index: 4;
+    position: absolute;
+    left: 38%;
+    width: 370px;
+    bottom: 71px;
+  }
+
   img#ourDough {
     position: relative;
     left: 45%;
     width: 350px;
     top: 102px;
   }
-  img.sauces {
+  img.ourSauces {
     z-index: 2;
     position: absolute;
-    left: 23%;
+    left: 69%;
     width: 380px;
-    bottom: 105px;
+    bottom: 71px;
   }
-  img.cheeses {
+  img.ourCheeses {
     z-index: 3;
     position: absolute;
-    left: 29%;
+    left: 72%;
     width: 295px;
-    bottom: 145px;
+    bottom: 115px;
   }
-  img.toppings {
+  img.ourToppings {
     z-index: 4;
     position: absolute;
-    left: 23%;
+    left: 71%;
     width: 370px;
-    bottom: 85px;
+    bottom: 71px;
   }
+
 
   table {
     position: relative;
-    top: -265px;
-    left: 60px;
+    top: -355px;
+    left: 31px;
   }
   tbody {
     display: block;
@@ -201,7 +224,7 @@ header {
     position: relative;
   }
   #yourPizza {
-    left: 44%;
+    left: 40%;
     background-color: #88d1f5;
     animation-name: colorTrans;
     animation-duration: 20s;
@@ -210,7 +233,7 @@ header {
   }
 
   #ourPizza {
-    left: 57%;
+    left: 55%;
     background-color: #8d88f5;
     animation-name: colorTrans;
     animation-duration: 20s;
@@ -218,7 +241,7 @@ header {
     animation-delay: 5s;
   }
   #yourAnswer {
-    top: 64px;
+    top: 40px;
     left: -1%;
     background-color: #ff3928;
     animation-name: colorTrans;
@@ -227,7 +250,7 @@ header {
     animation-delay: 10s;
   }
   #orderPizza {
-    top: 64px;
+    top: 40px;
     left: 1%;
     background-color: #fac967;
     animation-name: colorTrans;
