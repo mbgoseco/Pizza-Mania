@@ -1,6 +1,5 @@
 body {
   line-height: 1;
-  width: 100%
 }
 
 h1 {
@@ -14,7 +13,6 @@ h1 {
   z-index: 3;
 }
 header {
-  width: 100%;
   position: absolute;
   background-color: #33b1ff;
   z-index: 2;
@@ -51,23 +49,8 @@ main {
   background-image: url('../assets/pizzaLine.JPG');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 850px;
-  width: 100%;
+  height: 700px;
 }
-
-input {
-     font-size: 15px;
-     font-family: monospace;
-     margin-right: 17px;
-     margin-bottom: 7px;
-     position: relative;
-     border-radius: 10px;
-     width: 100px;
-     bottom: 8%;
-     right: 9%;
-     position: absolute;
-     background-color: #fbff00;
-    }
 
 #orderingBox {
   position: absolute;
@@ -156,9 +139,7 @@ ul#toppingList {
 }
 
 #foot {
-  position: flex;
   padding: 1%;
-  width:100%;
   text-align: center;
   bottom: 0%;
   z-index: 6;
