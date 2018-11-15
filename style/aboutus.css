@@ -96,7 +96,9 @@ td {
 }
 table {
   position: absolute;
-  top: 30%;
+  top: 33%;
+  left: 7%;
+  right: 93%;
 }
 #foot {
   position: fixed;
