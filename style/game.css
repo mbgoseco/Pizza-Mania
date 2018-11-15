@@ -3,7 +3,7 @@ header {
     z-index: 2;
     background-color: #88d1f5;
     animation-name: colorTrans;
-    animation-duration: 60s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-delay: 0s;
   }
@@ -34,9 +34,9 @@ header {
     z-index: 2;
     background-color: #8d88f5;
     animation-name: colorTrans;
-    animation-duration: 60s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-delay: 15s;
+    animation-delay: 5s;
   }
   .navItems {
     position: relative;
@@ -50,9 +50,9 @@ header {
     font-size: 13px;
     background-color: #ff3928;
     animation-name: colorTrans;
-    animation-duration: 60s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-delay: 30s;
+    animation-delay: 10s;
   }
   main {
     background-image: url(../assets/turtle.jpg);
@@ -108,16 +108,17 @@ header {
   }
 
   table {
-      position: fixed;
+    position: relative;
+    top: -265px;
+    left: 60px;
   }
-  
   tbody {
     display: block;
     position: relative;
     overflow: auto;
     height: 490px;
-    left: 11%;
-    top: -296px;
+    /* left: 11%; */
+    /* top: -190px; */
     background-image: url(../assets/cutting-board-2693412_960_720.jpg);
     border-right: black 5px solid;
     border-left: black 5px solid;
@@ -146,9 +147,9 @@ header {
     border-radius: 10px;
     background-color: #ff3928;
     animation-name: colorTrans;
-    animation-duration: 60s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-delay: 30s;  
+    animation-delay: 10s;  
   }
   button.cheeses {
     font-size: 15px;
@@ -160,9 +161,9 @@ header {
     border-radius: 10px;
     background-color: #ff3928;
     animation-name: colorTrans;
-    animation-duration: 60s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-delay: 30s;
+    animation-delay: 10s;
   }
   button.toppings {
     font-size: 15px;
@@ -174,9 +175,9 @@ header {
     border-radius: 10px;
     background-color: #ff3928;
     animation-name: colorTrans;
-    animation-duration: 60s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-delay: 30s;
+    animation-delay: 10s;
   }
   img {
     right: 13px;
@@ -184,17 +185,12 @@ header {
     width: 25px;
   }
 
-  table {
-      position: fixed;
-  }
-  
   #orderCenter {
     position: relative;
     text-align: center;
     bottom: 364px;
   }
-  
-  #orderButton, #cancelButton {
+  #yourPizza, #ourPizza, #yourAnswer, #orderPizza {
     border-radius: 28px;
     margin-top: 0%;
     font-size: 30px;
@@ -203,12 +199,42 @@ header {
     font-family: monospace;
     display: inline-block;
     position: relative;
-    top: 485px;
-    left: 9%;
-    background-color: #fbff00;
   }
-  #cancelButton {
-    left: 20%;
+  #yourPizza {
+    left: 44%;
+    background-color: #88d1f5;
+    animation-name: colorTrans;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+  }
+
+  #ourPizza {
+    left: 57%;
+    background-color: #8d88f5;
+    animation-name: colorTrans;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+  }
+  #yourAnswer {
+    top: 64px;
+    left: -1%;
+    background-color: #ff3928;
+    animation-name: colorTrans;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 10s;
+  }
+  #orderPizza {
+    top: 64px;
+    left: 1%;
+    background-color: #fac967;
+    animation-name: colorTrans;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 15s;
+    bottom: 0%;
   }
   a.button {
     position: relative;
@@ -237,9 +263,9 @@ header {
     text-emphasis-color: white;
     background-color: #fac967;
     animation-name: colorTrans;
-    animation-duration: 60s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-delay: 45s;
+    animation-delay: 15s;
     bottom: 0%;
   }
   #greenFoot {
@@ -250,9 +276,9 @@ header {
     z-index: 2;
     background-color: #8d88f5;
     animation-name: colorTrans;
-    animation-duration: 60s;
+    animation-duration: 20s;
     animation-iteration-count: infinite;
-    animation-delay: 15s;
+    animation-delay: 5s;
   }
   
   #footer {
