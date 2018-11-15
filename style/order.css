@@ -34,6 +34,7 @@ button[value="remove"] {
   z-index: 2;
   font-family: monospace;
   font-size: 13px;
+  font-weight: bold;
   background-color: #fbff00;
 }
 

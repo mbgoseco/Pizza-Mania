@@ -57,6 +57,7 @@ header {
   animation-name: colorTrans;
   animation-duration: 60s;
   animation-iteration-count: infinite;
+  font-weight: bold;
   animation-delay: 30s;
 }
 
