@@ -1,19 +1,7 @@
-@keyframes colorTrans {
-  0% {background-color: #88d1f5;}
-  25% {background-color: #8d88f5;}
-  50% {background-color: #ff3928;}
-  75% {background-color: #fac967;}
-  100% {background-color: #88d1f5;}
-
-}
 header {
   width: 100%;
   z-index: 2;
-  background-color: #88d1f5;
-  animation-name: colorTrans;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-delay: 0s;
+  background-color: #33b1ff;
 }
 #titleImage {
   position: relative;
@@ -34,11 +22,7 @@ button[value="remove"] {
   border: 2px solid black;
   text-align: center;
   z-index: 2;
-  background-color: #8d88f5;
-  animation-name: colorTrans;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-delay: 15s;
+  background-color: #ccc;
 }
 .navItems {
   position: relative;
@@ -50,17 +34,14 @@ button[value="remove"] {
   z-index: 2;
   font-family: monospace;
   font-size: 13px;
-  background-color: #ff3928;
-  animation-name: colorTrans;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-delay: 30s;
+  background-color: #fbff00;
 }
 main {
   background-image: url(../assets/orderPageBackground.JPG);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%; 
+  height: 650px;
 }
 div#pizza-preview {
   width: 700px;
@@ -188,11 +169,7 @@ img {
   display: inline-block;
   position: relative;
   bottom: 50px;
-  background-color: #ff3928;
-  animation-name: colorTrans;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-delay: 30s;
+  background-color: #fbff00;
 }
 
 a.button {
@@ -232,11 +209,7 @@ position: absolute;
   height: 17px;
   bottom: 20px;
   z-index: 2;
-  background-color: #8d88f5;
-  animation-name: colorTrans;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-delay: 15s;
+  background-color: #33b1ff;
 }
 
 #footer {

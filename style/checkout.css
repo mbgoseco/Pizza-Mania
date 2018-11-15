@@ -1,5 +1,6 @@
 body {
   line-height: 1;
+  width: 100%
 }
 
 h1 {
@@ -12,23 +13,13 @@ h1 {
   top: 200px;
   z-index: 3;
 }
-@keyframes colorTrans {
-  0% {background-color: #88d1f5;}
-  25% {background-color: #8d88f5;}
-  50% {background-color: #ff3928;}
-  75% {background-color: #fac967;}
-  100% {background-color: #88d1f5;}
-
-}
 header {
+  width: 100%;
   position: absolute;
   background-color: #33b1ff;
   z-index: 2;
-  background-color: #88d1f5;
-  animation-name: colorTrans;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-delay: 0s;}
+ }
+
 #titleImage {
   position: relative;
   width: 32%;
@@ -40,11 +31,7 @@ header {
   border: 2px solid black;
   text-align: center;
   z-index: 2;
-  background-color: #8d88f5;
-  animation-name: colorTrans;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-delay: 15s;
+  background-color: #ccc;
 }
 
 .navItems {
@@ -57,18 +44,15 @@ header {
   z-index: 2;
   font-family: monospace;
   font-size: 13px;
-  background-color: #ff3928;
-  animation-name: colorTrans;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-delay: 30s;
+  background-color: #fbff00;
 }
 
 main {
   background-image: url('../assets/pizzaLine.JPG');
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 850px;
+  width: 100%;
 }
 
 input {
@@ -82,11 +66,7 @@ input {
      bottom: 8%;
      right: 9%;
      position: absolute;
-     background-color: #ff3928;
-     animation-name: colorTrans;
-     animation-duration: 60s;
-     animation-iteration-count: infinite;
-     animation-delay: 30s;
+     background-color: #fbff00;
     }
 
 #orderingBox {
@@ -183,11 +163,7 @@ ul#toppingList {
   bottom: 0%;
   z-index: 6;
   color: white;
-  background-color: #fac967;
-  animation-name: colorTrans;
-  animation-duration: 60s;
-  animation-iteration-count: infinite;
-  animation-delay: 45s;
+  background-color: #33b1ff;
 }
 
 #footer {
