@@ -36,6 +36,11 @@ button[value="remove"] {
   font-size: 13px;
   background-color: #fbff00;
 }
+
+.navItems>a {
+  text-decoration: none;
+}
+
 main {
   background-image: url(../assets/orderPageBackground.JPG);
   background-repeat: no-repeat;
