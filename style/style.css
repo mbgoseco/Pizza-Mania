@@ -28,8 +28,11 @@ header {
   font-size: 13px;
   background-color: #fbff00;
 }
-body {
+
+.navItems>a {
+  text-decoration: none;
 }
+
 main {
   position: fixed;
   background-image: url('../assets/pizzaOven.jpg');
