@@ -23,7 +23,7 @@ header {
   z-index: 2;
   background-color: #88d1f5;
   animation-name: colorTrans;
-  animation-duration: 60s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   animation-delay: 0s;
 }
@@ -39,9 +39,9 @@ header {
   z-index: 2;
   background-color: #8d88f5;
   animation-name: colorTrans;
-  animation-duration: 60s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
-  animation-delay: 15s;
+  animation-delay: 5s;
 }
 .navItems {
   position: relative;
@@ -55,10 +55,10 @@ header {
   font-size: 13px;
   background-color: #ff3928;
   animation-name: colorTrans;
-  animation-duration: 60s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   font-weight: bold;
-  animation-delay: 30s;
+  animation-delay: 10s;
 }
 
 .navItems>a {
@@ -105,7 +105,7 @@ td {
 table {
   position: absolute;
   top: 33%;
-  left: 7%;
+  left: 3%;
   right: 93%;
 }
 #foot {
@@ -117,9 +117,9 @@ table {
   z-index: 6;
   background-color: #fac967;
   animation-name: colorTrans;
-  animation-duration: 60s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
-  animation-delay: 45s;
+  animation-delay: 15s;
 }
 
 #footer {
