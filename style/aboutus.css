@@ -59,6 +59,11 @@ header {
   animation-iteration-count: infinite;
   animation-delay: 30s;
 }
+
+.navItems>a {
+  text-decoration: none;
+}
+
 main {
   background-color: black;
  
