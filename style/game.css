@@ -48,12 +48,18 @@ header {
     z-index: 2;
     font-family: monospace;
     font-size: 13px;
-    background-color: #ff3928;
+    font-weight: bold;
+    background-color: #fbff00;
     animation-name: colorTrans;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-delay: 10s;
   }
+
+  .navItems>a {
+    text-decoration: none;
+  }
+
   main {
     background-image: url(../assets/turtle.jpg);
     background-repeat: repeat;
@@ -66,13 +72,44 @@ header {
     position: absolute;
     display: block;
     top: 179px;
-    height: 73%;
-    left: 9%;
+    height: 72%;
+    left: 4%;
     background-image: url(../assets/cutting-board-2693412_960_720.jpg);
     z-index: 0;
     border-right: black 5px solid;
     border-left: black 5px solid;
   }
+
+  #timer {
+    position: absolute;
+    top: 40px;
+    left: 580px;
+    font-family: monospace;
+    color: black;
+    font-size: 25px;
+    background: linear-gradient( rgba(255, 255, 255, 0.593), rgba(255, 255, 255, 0.593));
+  }
+
+  #score {
+    position: absolute;
+    top: 40px;
+    left: 1075px;
+    font-family: monospace;
+    color: black;
+    font-size: 25px;
+    background: linear-gradient( rgba(255, 255, 255, 0.593), rgba(255, 255, 255, 0.593));
+  }
+
+  #answerBox {
+    position: absolute;
+    top: 75px;
+    left: 780px;
+    font-family: monospace;
+    font-size: 32px;
+    background: linear-gradient( rgba(255, 255, 255, 0.593), rgba(255, 255, 255, 0.593));
+    visibility: hidden;
+  }
+
   img#yourDough {
     position: relative;
     left: 39%;
@@ -107,7 +144,7 @@ header {
     width: 350px;
     top: 102px;
   }
-  img.ourSauces {
+  img.oursauces {
     z-index: 2;
     position: absolute;
     left: 69%;
@@ -115,7 +152,7 @@ header {
     bottom: 71px;
 
   }
-  img.ourCheeses {
+  img.ourcheeses {
     z-index: 3;
     position: absolute;
     left: 72%;
@@ -123,7 +160,7 @@ header {
     bottom: 115px;
 
   }
-  img.ourToppings {
+  img.ourtoppings {
     z-index: 4;
     position: absolute;
     left: 71%;
