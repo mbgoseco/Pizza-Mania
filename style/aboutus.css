@@ -29,8 +29,10 @@ header {
 }
 #titleImage {
   position: relative;
-  width: 32%;
-  left: 34%;
+  left: 68vh;
+  height: 11vh;
+  width: 28vw;
+  z-index: 3;
 }
 #navBar {
   position: relative;
@@ -48,11 +50,12 @@ header {
   display: inline;
   border: 3%;
   padding: 1%;
-  border-radius: 10px;
+  border-radius: 1vh;
   border: 3px solid black;
   z-index: 2;
   font-family: monospace;
-  font-size: 13px;
+  font-size: 1em;
+  font-weight: bold;
   background-color: #ff3928;
   animation-name: colorTrans;
   animation-duration: 20s;
@@ -85,16 +88,15 @@ p#statement {
 }
 
 .ourPics {
-  width: 200px;
-  height: 200px;
+  width: 30vh;
+  height: 30vh;
 }
 #names {
   font-family: monospace;
-  font-size: 220%;
-  left: 3%;
+  font-size: 2em;
 }
 td {
-  padding-left: 120px;
+  padding-left: 5vw;
 }
 #statement {
   position: absolute;
@@ -111,9 +113,10 @@ table {
 #foot {
   position: fixed;
   padding: 1%;
-  width:100%;
+  width: 100%;
   text-align: center;
-  bottom: 0%;
+  bottom: 0vh;
+  height: 4vh;
   z-index: 6;
   background-color: #fac967;
   animation-name: colorTrans;

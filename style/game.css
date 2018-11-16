@@ -9,8 +9,10 @@ header {
   }
   #titleImage {
     position: relative;
-    width: 32%;
-    left: 34%;
+    left: 68vh;
+    height: 11vh;
+    width: 28vw;
+    z-index: 3;
   }
   button[value="remove"] {
     visibility: hidden;
@@ -32,6 +34,7 @@ header {
     border: 2px solid black;
     text-align: center;
     z-index: 2;
+    width: 100%;
     background-color: #8d88f5;
     animation-name: colorTrans;
     animation-duration: 20s;
@@ -43,13 +46,19 @@ header {
     display: inline;
     border: 3%;
     padding: 1%;
-    border-radius: 10px;
+    border-radius: 1vh;
     border: 3px solid black;
     z-index: 2;
     font-family: monospace;
+<<<<<<< HEAD
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #ff3928;
+=======
     font-size: 13px;
     font-weight: bold;
     background-color: #fbff00;
+>>>>>>> 66700ab6b6bc82100a60eb9968fba9c63a2fca28
     animation-name: colorTrans;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -64,16 +73,23 @@ header {
     background-image: url(../assets/turtle.jpg);
     background-repeat: repeat;
     background-size: cover;
+    position: relative;
+    height: 76vh;
     width: 100%;
-    height: 640px;
   }
   div#pizza-preview {
-    width: 1400px;
+    width: 85vw;
     position: absolute;
     display: block;
+<<<<<<< HEAD
+    top: 0vh;
+    height: 79vh;
+    left: 9vh;
+=======
     top: 179px;
     height: 72%;
     left: 4%;
+>>>>>>> 66700ab6b6bc82100a60eb9968fba9c63a2fca28
     background-image: url(../assets/cutting-board-2693412_960_720.jpg);
     z-index: 0;
     border-right: black 5px solid;
@@ -112,80 +128,78 @@ header {
 
   img#yourDough {
     position: relative;
-    left: 39%;
-    width: 350px;
-    top: 102px;
+    left: 31vw;
+    width: 20vw;
+    top: 10vh;
   }
   img.sauces {
     z-index: 2;
     position: absolute;
-    left: 38%;
-    width: 380px;
-    bottom: 71px;
+    left: 30vw;
+    width: 22vw;
+    bottom: 6vh;
   }
   img.cheeses {
     z-index: 3;
     position: absolute;
-    left: 41%;
-    width: 295px;
-    bottom: 115px;
+    left: 32.5vw;
+    width: 17vw;
+    bottom: 11vh;
   }
   img.toppings {
     z-index: 4;
     position: absolute;
-    left: 38%;
-    width: 370px;
-    bottom: 71px;
+    left: 32.5vw;
+    width: 18vw;
+    bottom: 9vh;
   }
 
   img#ourDough {
     position: relative;
-    left: 45%;
-    width: 350px;
-    top: 102px;
+    left: 40vw;
+    width: 20vw;
+    top: 10vh;
   }
   img.oursauces {
     z-index: 2;
     position: absolute;
-    left: 69%;
-    width: 380px;
-    bottom: 71px;
+    left: 59.3vw;
+    width: 22vw;
+    bottom: 6vh
 
   }
   img.ourcheeses {
     z-index: 3;
     position: absolute;
-    left: 72%;
-    width: 295px;
-    bottom: 115px;
+    left: 61.7vw;
+    width: 17vw;
+    bottom: 10.8vh
 
   }
   img.ourtoppings {
     z-index: 4;
     position: absolute;
-    left: 71%;
-    width: 370px;
-    bottom: 71px;
+    left: 62vw;
+    width: 17vw;
+    bottom: 12vh;
   }
-
-
   table {
     position: relative;
-    top: -355px;
-    left: 31px;
+    top: -25vh;
+    left: 2vw;
   }
   tbody {
     display: block;
     position: relative;
     overflow: auto;
-    height: 490px;
-    /* left: 11%; */
-    /* top: -190px; */
+    height: 78vh;
+    left: 1vw;
+    top: -12vh;
     background-image: url(../assets/cutting-board-2693412_960_720.jpg);
     border-right: black 5px solid;
     border-left: black 5px solid;
     z-index: 0;
-    font-size: 25px;
+    font-size: 2em;
     font-weight: 600;
     font-family: monospace;
     text-align: center;
@@ -250,20 +264,22 @@ header {
   #orderCenter {
     position: relative;
     text-align: center;
-    bottom: 364px;
+    bottom: 58vh;
+    width: 55vw;
+    left: 30vw;
   }
   #yourPizza, #ourPizza, #yourAnswer, #orderPizza {
-    border-radius: 28px;
+    border-radius: 1em;
     margin-top: 0%;
-    font-size: 30px;
-    padding-left: 8px;
-    padding-right: 8px;
+    font-size: 3em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     font-family: monospace;
     display: inline-block;
     position: relative;
   }
   #yourPizza {
-    left: 40%;
+    left: -2vw;
     background-color: #88d1f5;
     animation-name: colorTrans;
     animation-duration: 20s;
@@ -272,7 +288,7 @@ header {
   }
 
   #ourPizza {
-    left: 55%;
+    left: 6vw;
     background-color: #8d88f5;
     animation-name: colorTrans;
     animation-duration: 20s;
@@ -280,8 +296,8 @@ header {
     animation-delay: 5s;
   }
   #yourAnswer {
-    top: 40px;
-    left: -1%;
+    top: 2vh;
+    left: -3vw;
     background-color: #ff3928;
     animation-name: colorTrans;
     animation-duration: 20s;
@@ -289,8 +305,8 @@ header {
     animation-delay: 10s;
   }
   #orderPizza {
-    top: 40px;
-    left: 1%;
+    top: 5vh;
+    left: -3vw;
     background-color: #fac967;
     animation-name: colorTrans;
     animation-duration: 20s;
@@ -305,24 +321,26 @@ header {
   }
   
   #yellowButton {
-  font-size: 15px;
-  background-color: yellow;
-  font-family: monospace;
-  margin-right: 17px;
-  margin-bottom: 7px;
-  position: relative;
-  border-radius: 10px;
-  width: 100px;
-  bottom: 8%;
-  right: 9%;
-  position: absolute;
+    font-size: 15px;
+    background-color: yellow;
+    font-family: monospace;
+    margin-right: 17px;
+    margin-bottom: 7px;
+    position: relative;
+    border-radius: 10px;
+    width: 100px;
+    bottom: 8%;
+    right: 9%;
+    position: absolute;
   }
   #foot {
-    position: relative;
-    padding-top: 1%;
-    padding-bottom: 11px ;
+    position: fixed;
+    padding: 1%;
+    width: 100%;
     text-align: center;
-    text-emphasis-color: white;
+    bottom: 0vh;
+    height: 7vh;
+    z-index: 6;
     background-color: #fac967;
     animation-name: colorTrans;
     animation-duration: 20s;
