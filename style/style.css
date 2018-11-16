@@ -5,8 +5,10 @@ header {
 }
 #titleImage {
   position: relative;
-  width: 32%;
-  left: 34%;
+  left: 68vh;
+  height: 11vh;
+  width: 28vw;
+  z-index: 3;
 }
 
 #navBar {
@@ -15,17 +17,18 @@ header {
   text-align: center;
   z-index: 2;
   background-color: #ccc;
+  width: 100%;
 }
 .navItems {
   position: relative;
   display: inline;
   border: 3%;
   padding: 1%;
-  border-radius: 10px;
+  border-radius: 1vh;
   border: 3px solid black;
   z-index: 2;
   font-family: monospace;
-  font-size: 13px;
+  font-size: 1em;
   font-weight: bold;
   background-color: #fbff00;
 }
@@ -35,26 +38,23 @@ header {
 }
 
 main {
-  position: fixed;
-  background-image: url('../assets/pizzaOven.jpg');
+  background-image: url(../assets/pizzaOven.jpg);
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80%;
+  height: 79vh;
   width: 100%;
 }
 
 #orderButton {
-  position: absolute;
+  position: relative;
   margin: 1%;
-  font-size: 150%;
-  top: 47%;
-  bottom: 53%;
-  left: 0%;
-  right: 100%;
-  width: 24%;
-  height: 5%;
+  font-size: 1.3em;
+  top: -55vh;
+  left: 19vw;
+  width: 15vw;
+  height: 4vh;
   border-radius: 43%;
-  transform: rotate(-90deg);
   font-family: monospace;
   background-color: #fbff00;
   z-index: 8;
@@ -67,11 +67,10 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  transform: rotate(90deg);
-  width: 1000px;
-  height: 1000px;
-  top: 0%;
-  left: 21%;
+  width: 53vw;
+  height: 78vh;
+  top: 0vh;
+  left: 24vw;
   z-index: -0;
 }
 @keyframes spinningPizza {
@@ -80,11 +79,9 @@ main {
 }
 #pizzaPunk {
   position: relative;
-  /* bottom: 60%; */
-  top: 12%;
-  left: 20%;
-  /* right: 24%; */
-  width: 750px;
+  top: 11vh;
+  left: -7vw;
+  width: 35vw;
   transform: rotate(0deg);
   animation-name: spinningPizza;
   animation-duration: 12s;
@@ -92,7 +89,6 @@ main {
   animation-iteration-count: infinite;
   z-index: 2;
 }
-
 #foot {
   position: fixed;
   padding: 1%;
