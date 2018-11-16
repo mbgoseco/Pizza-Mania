@@ -50,15 +50,9 @@ header {
     border: 3px solid black;
     z-index: 2;
     font-family: monospace;
-<<<<<<< HEAD
     font-size: 1em;
     font-weight: bold;
     background-color: #ff3928;
-=======
-    font-size: 13px;
-    font-weight: bold;
-    background-color: #fbff00;
->>>>>>> 66700ab6b6bc82100a60eb9968fba9c63a2fca28
     animation-name: colorTrans;
     animation-duration: 20s;
     animation-iteration-count: infinite;
@@ -81,15 +75,9 @@ header {
     width: 85vw;
     position: absolute;
     display: block;
-<<<<<<< HEAD
     top: 0vh;
     height: 79vh;
     left: 9vh;
-=======
-    top: 179px;
-    height: 72%;
-    left: 4%;
->>>>>>> 66700ab6b6bc82100a60eb9968fba9c63a2fca28
     background-image: url(../assets/cutting-board-2693412_960_720.jpg);
     z-index: 0;
     border-right: black 5px solid;
