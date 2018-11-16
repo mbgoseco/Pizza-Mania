@@ -50,14 +50,25 @@ header {
     border: 3px solid black;
     z-index: 2;
     font-family: monospace;
+<<<<<<< HEAD
     font-size: 1em;
     font-weight: bold;
     background-color: #ff3928;
+=======
+    font-size: 13px;
+    font-weight: bold;
+    background-color: #fbff00;
+>>>>>>> 66700ab6b6bc82100a60eb9968fba9c63a2fca28
     animation-name: colorTrans;
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-delay: 10s;
   }
+
+  .navItems>a {
+    text-decoration: none;
+  }
+
   main {
     background-image: url(../assets/turtle.jpg);
     background-repeat: repeat;
@@ -70,14 +81,51 @@ header {
     width: 85vw;
     position: absolute;
     display: block;
+<<<<<<< HEAD
     top: 0vh;
     height: 79vh;
     left: 9vh;
+=======
+    top: 179px;
+    height: 72%;
+    left: 4%;
+>>>>>>> 66700ab6b6bc82100a60eb9968fba9c63a2fca28
     background-image: url(../assets/cutting-board-2693412_960_720.jpg);
     z-index: 0;
     border-right: black 5px solid;
     border-left: black 5px solid;
   }
+
+  #timer {
+    position: absolute;
+    top: 40px;
+    left: 580px;
+    font-family: monospace;
+    color: black;
+    font-size: 25px;
+    background: linear-gradient( rgba(255, 255, 255, 0.593), rgba(255, 255, 255, 0.593));
+  }
+
+  #score {
+    position: absolute;
+    top: 40px;
+    left: 1075px;
+    font-family: monospace;
+    color: black;
+    font-size: 25px;
+    background: linear-gradient( rgba(255, 255, 255, 0.593), rgba(255, 255, 255, 0.593));
+  }
+
+  #answerBox {
+    position: absolute;
+    top: 75px;
+    left: 780px;
+    font-family: monospace;
+    font-size: 32px;
+    background: linear-gradient( rgba(255, 255, 255, 0.593), rgba(255, 255, 255, 0.593));
+    visibility: hidden;
+  }
+
   img#yourDough {
     position: relative;
     left: 31vw;
@@ -89,21 +137,21 @@ header {
     position: absolute;
     left: 30vw;
     width: 22vw;
-    bottom: 30vh;
+    bottom: 6vh;
   }
   img.cheeses {
     z-index: 3;
     position: absolute;
     left: 32.5vw;
     width: 17vw;
-    bottom: 35vh;
+    bottom: 11vh;
   }
   img.toppings {
     z-index: 4;
     position: absolute;
-    left: 31vw;
-    width: 20vw;
-    bottom: 30vh;
+    left: 32.5vw;
+    width: 18vw;
+    bottom: 9vh;
   }
 
   img#ourDough {
@@ -112,28 +160,28 @@ header {
     width: 20vw;
     top: 10vh;
   }
-  img.ourSauces {
+  img.oursauces {
     z-index: 2;
     position: absolute;
-    left: 40vw;
+    left: 59.3vw;
     width: 22vw;
-    bottom: 30vh;
+    bottom: 6vh
 
   }
-  img.ourCheeses {
+  img.ourcheeses {
     z-index: 3;
     position: absolute;
-    left: 40vw;
-    width: 22vw;
-    bottom: 30vh;
+    left: 61.7vw;
+    width: 17vw;
+    bottom: 10.8vh
 
   }
-  img.ourToppings {
+  img.ourtoppings {
     z-index: 4;
     position: absolute;
-    left: 40vw;
-    width: 22vw;
-    bottom: 30vh;
+    left: 62vw;
+    width: 17vw;
+    bottom: 12vh;
   }
   table {
     position: relative;
